@@ -386,7 +386,7 @@ def format_date(date_str):
     except Exception:
         return date_str[:10]
         def build_glass_number(num_str, font_size):
-    """
+        """
     Creates a transparent 3D glass-effect numeral matching glossy clear glass
     with bright rim highlights, bevels, and subtle refraction so the background shows through.
     """
