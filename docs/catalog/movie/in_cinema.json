@@ -1,154 +1,204 @@
 {
   "metas": [
     {
-      "id": "tt0371746",
+      "id": "tmdb:1841061",
       "type": "movie",
-      "name": "Iron Man",
+      "name": "Basketball Slam Dunk: The Director's Cut",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_1.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "01 May 2008",
-      "imdbRating": "7.9",
-      "description": "01 May 2008 • UA • IMDb 7.9"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt33764258",
+      "id": "tmdb:1840909",
       "type": "movie",
-      "name": "The Odyssey",
+      "name": "Percephily",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_2.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "17 Jul 2026",
-      "imdbRating": "8.4",
-      "description": "17 Jul 2026 • A • IMDb 8.4"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt7526136",
+      "id": "tmdb:1840872",
       "type": "movie",
-      "name": "Heart of the Beast",
+      "name": "Habitaré els nostres noms",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_3.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Sep 2026",
-      "imdbRating": "7.1",
-      "description": "25 Sep 2026 • U/A 16+ • IMDb 7.1"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt32558705",
+      "id": "tmdb:1839634",
       "type": "movie",
-      "name": "The Hunger Games: Sunrise on the Reaping",
+      "name": "Wilting Flowers",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_4.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "18 Nov 2026",
-      "imdbRating": "7.6",
-      "description": "18 Nov 2026 • PG-13 • IMDb 7.6"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt36586020",
+      "id": "tmdb:1839499",
       "type": "movie",
-      "name": "Other Mommy",
+      "name": "Dead Flies",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_5.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "07 Oct 2026",
-      "imdbRating": "6.5",
-      "description": "07 Oct 2026 • R • IMDb 6.5"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt22084616",
+      "id": "tmdb:1839306",
       "type": "movie",
-      "name": "Spider-Man: Brand New Day",
+      "name": "Calling Card",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_6.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "30 Jul 2026",
-      "imdbRating": "8.0",
-      "description": "30 Jul 2026 • U/A 13+ • IMDb 8.0"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt35538033",
+      "id": "tmdb:1838660",
       "type": "movie",
-      "name": "Resident Evil",
+      "name": "Do^do no Radiw",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_7.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "17 Sep 2026",
-      "imdbRating": "7.5",
-      "description": "17 Sep 2026 • A • IMDb 7.5"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt27369017",
+      "id": "tmdb:1838436",
       "type": "movie",
-      "name": "Hope",
+      "name": "Fællesskabet",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_8.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "23 Oct 2026",
-      "imdbRating": "6.9",
-      "description": "23 Oct 2026 • A • IMDb 6.9"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt39370926",
+      "id": "tt49442022",
       "type": "movie",
-      "name": "Never Surrender",
+      "name": "Kids",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_9.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "11 Nov 2026",
-      "imdbRating": "6.8",
-      "description": "11 Nov 2026 • IMDb 6.8"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt37522541",
+      "id": "tmdb:1833379",
       "type": "movie",
-      "name": "Apocalypse Z: New World",
+      "name": "Pure Elegance Tour: Live at History",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_10.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "09 Oct 2026",
-      "imdbRating": "6.2",
-      "description": "09 Oct 2026 • IMDb 6.2"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt6611324",
+      "id": "tmdb:1831414",
       "type": "movie",
-      "name": "Guarding Stars",
+      "name": "Kingdom of Dust",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_11.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "18 Nov 2026",
-      "imdbRating": "6.9",
-      "description": "18 Nov 2026 • IMDb 6.9"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": "10.0",
+      "description": "23 Nov 2026 • IMDb 10.0"
     },
     {
-      "id": "tt10377864",
+      "id": "tt51547822",
       "type": "movie",
-      "name": "Beware Boiúna",
+      "name": "Chiara Ferragni: Front Facing",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_12.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "01 Oct 2026",
-      "imdbRating": "5.9",
-      "description": "01 Oct 2026 • IMDb 5.9"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": "7.0",
+      "description": "23 Nov 2026 • IMDb 7.0"
     },
     {
-      "id": "tt50389959",
+      "id": "tmdb:1827515",
       "type": "movie",
-      "name": "A Story of Derry",
+      "name": "Retratos",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_13.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "31 Oct 2026",
-      "imdbRating": "6.6",
-      "description": "31 Oct 2026 • IMDb 6.6"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt51165610",
+      "id": "tt51177579",
       "type": "movie",
-      "name": "Battle Through the Heavens: The Battle of Two Emperors",
+      "name": "Redes de Carrizo",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_14.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "22 Nov 2026",
-      "imdbRating": "9.4",
-      "description": "22 Nov 2026 • IMDb 9.4"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt38686316",
+      "id": "tmdb:1826815",
       "type": "movie",
-      "name": "Ghost Soldier",
+      "name": "Carmen, La Matador",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_15.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "11 Nov 2026",
-      "imdbRating": "9.0",
-      "description": "11 Nov 2026 • U/A 16+ • IMDb 9.0"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
+    },
+    {
+      "id": "tmdb:1826728",
+      "type": "movie",
+      "name": "The Last Spy-fi Series",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_16.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
+    },
+    {
+      "id": "tmdb:1826723",
+      "type": "movie",
+      "name": "The Secret Service Revisited",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_17.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
+    },
+    {
+      "id": "tmdb:1826077",
+      "type": "movie",
+      "name": "Paganos",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_18.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
+    },
+    {
+      "id": "tmdb:1826073",
+      "type": "movie",
+      "name": "Hijos",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_19.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
+    },
+    {
+      "id": "tmdb:1821937",
+      "type": "movie",
+      "name": "Beyond the beyond",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_20.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     }
   ]
 }

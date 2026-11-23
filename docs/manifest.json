@@ -1,6 +1,6 @@
 {
   "id": "com.devd97271-pixel.kolkata.cinema.ott",
-  "version": "3.0.0",
+  "version": "3.2.0",
   "name": "Kolkata Cinema & OTT Hub",
   "description": "In Cinema, Upcoming in Cinema & OTT New Releases + Top 10",
   "resources": [
@@ -24,12 +24,12 @@
     {
       "type": "movie",
       "id": "netflix_new_movie",
-      "name": "New release in Netflix movie"
+      "name": "New release in Netflix"
     },
     {
       "type": "series",
       "id": "netflix_new_series",
-      "name": "New release in Netflix series"
+      "name": "New release in Netflix"
     },
     {
       "type": "movie",
@@ -44,12 +44,12 @@
     {
       "type": "movie",
       "id": "prime_new_movie",
-      "name": "New release in Prime Video movie"
+      "name": "New release in Prime Video"
     },
     {
       "type": "series",
       "id": "prime_new_series",
-      "name": "New release in Prime Video series"
+      "name": "New release in Prime Video"
     },
     {
       "type": "movie",
@@ -64,12 +64,12 @@
     {
       "type": "movie",
       "id": "jiohotstar_new_movie",
-      "name": "New release in JioHotstar movie"
+      "name": "New release in JioHotstar"
     },
     {
       "type": "series",
       "id": "jiohotstar_new_series",
-      "name": "New release in JioHotstar series"
+      "name": "New release in JioHotstar"
     },
     {
       "type": "movie",
@@ -84,12 +84,12 @@
     {
       "type": "movie",
       "id": "mxplayer_new_movie",
-      "name": "New release in Amazon MX Player movie"
+      "name": "New release in Amazon MX Player"
     },
     {
       "type": "series",
       "id": "mxplayer_new_series",
-      "name": "New release in Amazon MX Player series"
+      "name": "New release in Amazon MX Player"
     },
     {
       "type": "movie",
@@ -104,12 +104,12 @@
     {
       "type": "movie",
       "id": "sonyliv_new_movie",
-      "name": "New release in SonyLIV movie"
+      "name": "New release in SonyLIV"
     },
     {
       "type": "series",
       "id": "sonyliv_new_series",
-      "name": "New release in SonyLIV series"
+      "name": "New release in SonyLIV"
     },
     {
       "type": "movie",
@@ -124,12 +124,12 @@
     {
       "type": "movie",
       "id": "zee5_new_movie",
-      "name": "New release in ZEE5 movie"
+      "name": "New release in ZEE5"
     },
     {
       "type": "series",
       "id": "zee5_new_series",
-      "name": "New release in ZEE5 series"
+      "name": "New release in ZEE5"
     },
     {
       "type": "movie",
@@ -144,12 +144,12 @@
     {
       "type": "movie",
       "id": "appletv_new_movie",
-      "name": "New release in Apple TV+ movie"
+      "name": "New release in Apple TV+"
     },
     {
       "type": "series",
       "id": "appletv_new_series",
-      "name": "New release in Apple TV+ series"
+      "name": "New release in Apple TV+"
     },
     {
       "type": "movie",
@@ -164,12 +164,12 @@
     {
       "type": "movie",
       "id": "hoichoi_new_movie",
-      "name": "New release in Hoichoi movie"
+      "name": "New release in Hoichoi"
     },
     {
       "type": "series",
       "id": "hoichoi_new_series",
-      "name": "New release in Hoichoi series"
+      "name": "New release in Hoichoi"
     },
     {
       "type": "movie",

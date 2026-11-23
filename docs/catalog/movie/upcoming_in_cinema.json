@@ -1,154 +1,204 @@
 {
   "metas": [
     {
-      "id": "tt21357150",
+      "id": "tmdb:1841061",
       "type": "movie",
-      "name": "Avengers: Doomsday",
+      "name": "Basketball Slam Dunk: The Director's Cut",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_1.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "17 Dec 2026",
+      "releaseInfo": "23 Nov 2026",
       "imdbRating": null,
-      "description": "17 Dec 2026"
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt38077943",
+      "id": "tmdb:1840909",
       "type": "movie",
-      "name": "Hexed",
+      "name": "Percephily",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_2.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
-      "imdbRating": "7.7",
-      "description": "25 Nov 2026 • IMDb 7.7"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt31378509",
+      "id": "tmdb:1840872",
       "type": "movie",
-      "name": "Dune: Part Three",
+      "name": "Habitaré els nostres noms",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_3.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "18 Dec 2026",
+      "releaseInfo": "23 Nov 2026",
       "imdbRating": null,
-      "description": "18 Dec 2026"
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt17055444",
+      "id": "tmdb:1839634",
       "type": "movie",
-      "name": "Hershey",
+      "name": "Wilting Flowers",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_4.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
-      "imdbRating": "9.3",
-      "description": "25 Nov 2026 • IMDb 9.3"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt34512981",
+      "id": "tmdb:1839499",
       "type": "movie",
-      "name": "Ice Age: Boiling Point",
+      "name": "Dead Flies",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_5.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Jan 2027",
+      "releaseInfo": "23 Nov 2026",
       "imdbRating": null,
-      "description": "28 Jan 2027"
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt36408401",
+      "id": "tmdb:1839306",
       "type": "movie",
-      "name": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
+      "name": "Calling Card",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_6.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "23 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026 • R"
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt37171180",
+      "id": "tmdb:1838660",
       "type": "movie",
-      "name": "Artificial",
+      "name": "Do^do no Radiw",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_7.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Dec 2026",
+      "releaseInfo": "23 Nov 2026",
       "imdbRating": null,
-      "description": "25 Dec 2026 • PG-13"
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt26735127",
+      "id": "tmdb:1838436",
       "type": "movie",
-      "name": "Jumanji: Open World",
+      "name": "Fællesskabet",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_8.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Dec 2026",
+      "releaseInfo": "23 Nov 2026",
       "imdbRating": null,
-      "description": "25 Dec 2026"
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt35935357",
+      "id": "tt49442022",
       "type": "movie",
-      "name": "The Beekeeper 2",
+      "name": "Kids",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_9.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "13 Jan 2027",
+      "releaseInfo": "23 Nov 2026",
       "imdbRating": null,
-      "description": "13 Jan 2027"
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt43621069",
+      "id": "tmdb:1833379",
       "type": "movie",
-      "name": "Lilo & Scratch",
+      "name": "Pure Elegance Tour: Live at History",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_10.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "23 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026 • PG"
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt32432428",
+      "id": "tmdb:1831414",
       "type": "movie",
-      "name": "Violent Night 2",
+      "name": "Kingdom of Dust",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_11.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "02 Dec 2026",
-      "imdbRating": null,
-      "description": "02 Dec 2026"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": "10.0",
+      "description": "23 Nov 2026 • IMDb 10.0"
     },
     {
-      "id": "tt32557122",
+      "id": "tt51547822",
       "type": "movie",
-      "name": "The Angry Birds Movie 3",
+      "name": "Chiara Ferragni: Front Facing",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_12.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "01 Jan 2027",
-      "imdbRating": null,
-      "description": "01 Jan 2027"
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": "7.0",
+      "description": "23 Nov 2026 • IMDb 7.0"
     },
     {
-      "id": "tt21361444",
+      "id": "tmdb:1827515",
       "type": "movie",
-      "name": "Avengers: Secret Wars",
+      "name": "Retratos",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_13.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "15 Dec 2027",
+      "releaseInfo": "23 Nov 2026",
       "imdbRating": null,
-      "description": "15 Dec 2027"
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt16744566",
+      "id": "tt51177579",
       "type": "movie",
-      "name": "Sonic the Hedgehog 4",
+      "name": "Redes de Carrizo",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_14.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "11 Mar 2027",
+      "releaseInfo": "23 Nov 2026",
       "imdbRating": null,
-      "description": "11 Mar 2027"
+      "description": "23 Nov 2026"
     },
     {
-      "id": "tt16995302",
+      "id": "tmdb:1826815",
       "type": "movie",
-      "name": "The Man with the Bag",
+      "name": "Carmen, La Matador",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_15.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "02 Dec 2026",
+      "releaseInfo": "23 Nov 2026",
       "imdbRating": null,
-      "description": "02 Dec 2026 • PG"
+      "description": "23 Nov 2026"
+    },
+    {
+      "id": "tmdb:1826728",
+      "type": "movie",
+      "name": "The Last Spy-fi Series",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_16.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
+    },
+    {
+      "id": "tmdb:1826723",
+      "type": "movie",
+      "name": "The Secret Service Revisited",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_17.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
+    },
+    {
+      "id": "tmdb:1826077",
+      "type": "movie",
+      "name": "Paganos",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_18.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
+    },
+    {
+      "id": "tmdb:1826073",
+      "type": "movie",
+      "name": "Hijos",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_19.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
+    },
+    {
+      "id": "tmdb:1821937",
+      "type": "movie",
+      "name": "Beyond the beyond",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_20.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "23 Nov 2026",
+      "imdbRating": null,
+      "description": "23 Nov 2026"
     }
   ]
 }
