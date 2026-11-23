@@ -1,0 +1,64 @@
+{
+  "metas": [
+    {
+      "id": "tt39943756",
+      "type": "series",
+      "name": "Campus Drivers",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_series_1.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "06 Nov 2026",
+      "imdbRating": "7.7",
+      "description": "Release: 06 Nov 2026 | IMDb: 7.7 | OTT: Prime Video"
+    },
+    {
+      "id": "tt41054228",
+      "type": "series",
+      "name": "Devils' Crest",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_series_2.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "06 Nov 2026",
+      "imdbRating": "8.0",
+      "description": "Release: 06 Nov 2026 | IMDb: 8.0 | OTT: Prime Video"
+    },
+    {
+      "id": "tt15715850",
+      "type": "series",
+      "name": "The Greatest",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_series_3.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "04 Nov 2026",
+      "imdbRating": "5.5",
+      "description": "Release: 04 Nov 2026 | IMDb: 5.5 | OTT: Prime Video"
+    },
+    {
+      "id": "tt44914557",
+      "type": "series",
+      "name": "Rock, Paper, Landmines",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_series_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "13 Nov 2026",
+      "imdbRating": "8.5",
+      "description": "Release: 13 Nov 2026 | IMDb: 8.5 | OTT: Prime Video"
+    },
+    {
+      "id": "tt50666033",
+      "type": "series",
+      "name": "MELANIA the Series",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_series_5.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "20 Nov 2026",
+      "imdbRating": "1.0",
+      "description": "Release: 20 Nov 2026 | IMDb: 1.0 | OTT: Prime Video"
+    },
+    {
+      "id": "tt43620104",
+      "type": "series",
+      "name": "Mascarade",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_series_6.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "20 Nov 2026",
+      "imdbRating": null,
+      "description": "Release: 20 Nov 2026 | OTT: Prime Video"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "metas": [
+    {
+      "id": "tt26242352",
+      "type": "movie",
+      "name": "Blind Game",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/zee5_new_movie_1.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "11 Nov 2026",
+      "imdbRating": null,
+      "description": "Release: 11 Nov 2026 | Rated: U/A 16+ | OTT: ZEE5"
+    },
+    {
+      "id": "tt44878818",
+      "type": "movie",
+      "name": "Bouma",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/zee5_new_movie_2.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "12 Nov 2026",
+      "imdbRating": "4.0",
+      "description": "Release: 12 Nov 2026 | IMDb: 4.0 | OTT: ZEE5"
+    },
+    {
+      "id": "tt18933846",
+      "type": "movie",
+      "name": "Nooru Kodi Vaanavil",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/zee5_new_movie_3.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "06 Nov 2026",
+      "imdbRating": "5.0",
+      "description": "Release: 06 Nov 2026 | Rated: U/A 13+ | IMDb: 5.0 | OTT: ZEE5"
+    },
+    {
+      "id": "tt39973370",
+      "type": "movie",
+      "name": "Mrigaya 1.5: The Hunt Continues",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/zee5_new_movie_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "13 Nov 2026",
+      "imdbRating": null,
+      "description": "Release: 13 Nov 2026 | Rated: U/A 16+ | OTT: ZEE5"
+    }
+  ]
+}

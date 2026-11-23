@@ -1,0 +1,54 @@
+{
+  "metas": [
+    {
+      "id": "tt6938856",
+      "type": "series",
+      "name": "A Very English Scandal",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_series_1.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "20 May 2018",
+      "imdbRating": "7.6",
+      "description": "Release: 20 May 2018 | Rated: TV-14 | IMDb: 7.6 | OTT: Netflix"
+    },
+    {
+      "id": "tt7730170",
+      "type": "series",
+      "name": "En mode Salvail",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_series_2.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "28 Oct 2013",
+      "imdbRating": "2.0",
+      "description": "Release: 28 Oct 2013 | IMDb: 2.0 | OTT: Netflix"
+    },
+    {
+      "id": "tt20782190",
+      "type": "series",
+      "name": "English Teacher",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_series_3.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "02 Sep 2024",
+      "imdbRating": "7.4",
+      "description": "Release: 02 Sep 2024 | Rated: TV-MA | IMDb: 7.4 | OTT: Netflix"
+    },
+    {
+      "id": "tt12751642",
+      "type": "series",
+      "name": "BOOM! (PT)",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_series_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "09 Aug 2020",
+      "imdbRating": null,
+      "description": "Release: 09 Aug 2020 | OTT: Netflix"
+    },
+    {
+      "id": "tt0209693",
+      "type": "series",
+      "name": "Meu Rico Português",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_series_5.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "17 Feb 1975",
+      "imdbRating": "9.3",
+      "description": "Release: 17 Feb 1975 | IMDb: 9.3 | OTT: Netflix"
+    }
+  ]
+}

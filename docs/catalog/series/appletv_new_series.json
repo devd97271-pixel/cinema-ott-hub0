@@ -1,0 +1,24 @@
+{
+  "metas": [
+    {
+      "id": "tt32375763",
+      "type": "series",
+      "name": "12 12 12",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_new_series_1.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "12 Nov 2026",
+      "imdbRating": "6.3",
+      "description": "Release: 12 Nov 2026 | Rated: A | IMDb: 6.3 | OTT: Apple TV+"
+    },
+    {
+      "id": "tt38992068",
+      "type": "series",
+      "name": "Awkwafina: The Unlikely Cook",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_new_series_2.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "06 Nov 2026",
+      "imdbRating": "4.5",
+      "description": "Release: 06 Nov 2026 | Rated: A | IMDb: 4.5 | OTT: Apple TV+"
+    }
+  ]
+}

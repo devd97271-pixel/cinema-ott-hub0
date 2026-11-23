@@ -1,0 +1,74 @@
+{
+  "metas": [
+    {
+      "id": "tt0839980",
+      "type": "movie",
+      "name": "Semi-Pro",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_top10_movie_1.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "28 Feb 2008",
+      "imdbRating": "5.8",
+      "description": "Release: 28 Feb 2008 | Rated: R | IMDb: 5.8 | OTT: Apple TV+"
+    },
+    {
+      "id": "tt22084616",
+      "type": "movie",
+      "name": "Spider-Man: Brand New Day",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_top10_movie_2.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "30 Jul 2026",
+      "imdbRating": "8.0",
+      "description": "Release: 30 Jul 2026 | Rated: U/A 13+ | IMDb: 8.0 | OTT: Apple TV+"
+    },
+    {
+      "id": "tt21956238",
+      "type": "movie",
+      "name": "Popular Theory",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_top10_movie_3.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "09 Feb 2024",
+      "imdbRating": "5.9",
+      "description": "Release: 09 Feb 2024 | Rated: PG | IMDb: 5.9 | OTT: Apple TV+"
+    },
+    {
+      "id": "tmdb:986406",
+      "type": "movie",
+      "name": "Wallace's Lists",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_top10_movie_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "01 Jan 2007",
+      "imdbRating": null,
+      "description": "Release: 01 Jan 2007 | OTT: Apple TV+"
+    },
+    {
+      "id": "tt9191040",
+      "type": "movie",
+      "name": "Sports!",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_top10_movie_5.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "22 Jun 2018",
+      "imdbRating": "6.6",
+      "description": "Release: 22 Jun 2018 | IMDb: 6.6 | OTT: Apple TV+"
+    },
+    {
+      "id": "tt1727776",
+      "type": "movie",
+      "name": "Scouts Guide to the Zombie Apocalypse",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_top10_movie_6.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "23 Oct 2015",
+      "imdbRating": "6.3",
+      "description": "Release: 23 Oct 2015 | Rated: R | IMDb: 6.3 | OTT: Apple TV+"
+    },
+    {
+      "id": "tmdb:1760781",
+      "type": "movie",
+      "name": "F1 on Apple TV Live in IMAX: Italy Race",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_top10_movie_7.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "06 Sep 2026",
+      "imdbRating": null,
+      "description": "Release: 06 Sep 2026 | OTT: Apple TV+"
+    }
+  ]
+}

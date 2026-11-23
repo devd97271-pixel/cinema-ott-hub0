@@ -1,0 +1,64 @@
+{
+  "metas": [
+    {
+      "id": "tt43596156",
+      "type": "movie",
+      "name": "A Proud Family Wizmas",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_movie_1.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "14 Nov 2026",
+      "imdbRating": "6.1",
+      "description": "Release: 14 Nov 2026 | IMDb: 6.1 | OTT: JioHotstar"
+    },
+    {
+      "id": "tt49065977",
+      "type": "movie",
+      "name": "Expedition: Saving Our Seas",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_movie_2.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "14 Nov 2026",
+      "imdbRating": "8.0",
+      "description": "Release: 14 Nov 2026 | IMDb: 8.0 | OTT: JioHotstar"
+    },
+    {
+      "id": "tt51201053",
+      "type": "movie",
+      "name": "Darius Rucker: They Called Me Hootie",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_movie_3.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "16 Nov 2026",
+      "imdbRating": null,
+      "description": "Release: 16 Nov 2026 | OTT: JioHotstar"
+    },
+    {
+      "id": "tt49813814",
+      "type": "movie",
+      "name": "The Pursuit: F1 ACADEMY",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_movie_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "19 Nov 2026",
+      "imdbRating": "1.0",
+      "description": "Release: 19 Nov 2026 | IMDb: 1.0 | OTT: JioHotstar"
+    },
+    {
+      "id": "tt17497130",
+      "type": "movie",
+      "name": "The Invisible Guest",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_movie_5.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "06 Nov 2026",
+      "imdbRating": null,
+      "description": "Release: 06 Nov 2026 | OTT: JioHotstar"
+    },
+    {
+      "id": "tmdb:1817236",
+      "type": "movie",
+      "name": "Motu Patlu & the Mystery of Nagmani",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_movie_6.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "08 Nov 2026",
+      "imdbRating": null,
+      "description": "Release: 08 Nov 2026 | OTT: JioHotstar"
+    }
+  ]
+}

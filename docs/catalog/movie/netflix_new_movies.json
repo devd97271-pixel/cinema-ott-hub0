@@ -1,0 +1,124 @@
+{
+  "metas": [
+    {
+      "id": "tt39370926",
+      "type": "movie",
+      "name": "Never Surrender",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_movie_1.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "11 Nov 2026",
+      "imdbRating": "6.8",
+      "description": "Release: 11 Nov 2026 | IMDb: 6.8 | OTT: Netflix"
+    },
+    {
+      "id": "tt6611324",
+      "type": "movie",
+      "name": "Guarding Stars",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_movie_2.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "18 Nov 2026",
+      "imdbRating": "6.9",
+      "description": "Release: 18 Nov 2026 | IMDb: 6.9 | OTT: Netflix"
+    },
+    {
+      "id": "tt38213251",
+      "type": "movie",
+      "name": "Heartland",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_movie_3.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "13 Nov 2026",
+      "imdbRating": "6.2",
+      "description": "Release: 13 Nov 2026 | Rated: R | IMDb: 6.2 | OTT: Netflix"
+    },
+    {
+      "id": "tt14413964",
+      "type": "movie",
+      "name": "Steps",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_movie_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "20 Nov 2026",
+      "imdbRating": "6.8",
+      "description": "Release: 20 Nov 2026 | IMDb: 6.8 | OTT: Netflix"
+    },
+    {
+      "id": "tt38515310",
+      "type": "movie",
+      "name": "A Dog's Perfect Christmas",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_movie_5.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "04 Nov 2026",
+      "imdbRating": "7.1",
+      "description": "Release: 04 Nov 2026 | IMDb: 7.1 | OTT: Netflix"
+    },
+    {
+      "id": "tt37675123",
+      "type": "movie",
+      "name": "Allen",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_movie_6.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "12 Nov 2026",
+      "imdbRating": "6.5",
+      "description": "Release: 12 Nov 2026 | IMDb: 6.5 | OTT: Netflix"
+    },
+    {
+      "id": "tt39313557",
+      "type": "movie",
+      "name": "The Christmas Switch",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_movie_7.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "12 Nov 2026",
+      "imdbRating": "6.5",
+      "description": "Release: 12 Nov 2026 | IMDb: 6.5 | OTT: Netflix"
+    },
+    {
+      "id": "tt33402927",
+      "type": "movie",
+      "name": "On Behalf of My Son",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_movie_8.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "05 Nov 2026",
+      "imdbRating": "7.4",
+      "description": "Release: 05 Nov 2026 | IMDb: 7.4 | OTT: Netflix"
+    },
+    {
+      "id": "tt38420997",
+      "type": "movie",
+      "name": "The Gospel of Christmas",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_movie_9.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "11 Nov 2026",
+      "imdbRating": "6.9",
+      "description": "Release: 11 Nov 2026 | IMDb: 6.9 | OTT: Netflix"
+    },
+    {
+      "id": "tt39400541",
+      "type": "movie",
+      "name": "One Year to Live, Buy a Man",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_movie_10.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "05 Nov 2026",
+      "imdbRating": "7.1",
+      "description": "Release: 05 Nov 2026 | Rated: TV-14 | IMDb: 7.1 | OTT: Netflix"
+    },
+    {
+      "id": "tt50969289",
+      "type": "movie",
+      "name": "Russell Brand: Open Secret",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_movie_11.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "13 Nov 2026",
+      "imdbRating": "5.8",
+      "description": "Release: 13 Nov 2026 | IMDb: 5.8 | OTT: Netflix"
+    },
+    {
+      "id": "tt48434154",
+      "type": "movie",
+      "name": "Primetime Preacher$",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_movie_12.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "14 Nov 2026",
+      "imdbRating": "7.0",
+      "description": "Release: 14 Nov 2026 | IMDb: 7.0 | OTT: Netflix"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "metas": [
+    {
+      "id": "tt28450216",
+      "type": "series",
+      "name": "Student of the Year: After Dark",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_1.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "13 Nov 2026",
+      "imdbRating": "8.0",
+      "description": "Release: 13 Nov 2026 | IMDb: 8.0 | OTT: JioHotstar"
+    },
+    {
+      "id": "tt42006761",
+      "type": "series",
+      "name": "The Secret Lives of Mormon Wives: Orange County",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_2.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "12 Nov 2026",
+      "imdbRating": "3.3",
+      "description": "Release: 12 Nov 2026 | IMDb: 3.3 | OTT: JioHotstar"
+    },
+    {
+      "id": "tt50135019",
+      "type": "series",
+      "name": "Get Huge: Looksmaxxing to Death",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_3.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "10 Nov 2026",
+      "imdbRating": "7.0",
+      "description": "Release: 10 Nov 2026 | IMDb: 7.0 | OTT: JioHotstar"
+    },
+    {
+      "id": "tt50135636",
+      "type": "series",
+      "name": "Mr & Mrs Office",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "18 Nov 2026",
+      "imdbRating": null,
+      "description": "Release: 18 Nov 2026 | OTT: JioHotstar"
+    },
+    {
+      "id": "tt49910378",
+      "type": "series",
+      "name": "The Circle",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_5.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "17 Nov 2026",
+      "imdbRating": null,
+      "description": "Release: 17 Nov 2026 | OTT: JioHotstar"
+    },
+    {
+      "id": "tt50986266",
+      "type": "series",
+      "name": "Maniacs of the Truth",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_6.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "13 Nov 2026",
+      "imdbRating": "8.5",
+      "description": "Release: 13 Nov 2026 | IMDb: 8.5 | OTT: JioHotstar"
+    },
+    {
+      "id": "tt50089775",
+      "type": "series",
+      "name": "Pushpaka Vimanam",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_7.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "12 Nov 2026",
+      "imdbRating": null,
+      "description": "Release: 12 Nov 2026 | OTT: JioHotstar"
+    },
+    {
+      "id": "tmdb:341555",
+      "type": "series",
+      "name": "The Killing of the Golden Rooster",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_8.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "12 Nov 2026",
+      "imdbRating": null,
+      "description": "Release: 12 Nov 2026 | OTT: JioHotstar"
+    }
+  ]
+}

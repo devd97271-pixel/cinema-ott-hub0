@@ -1,0 +1,154 @@
+{
+  "metas": [
+    {
+      "id": "tt32558705",
+      "type": "movie",
+      "name": "The Hunger Games: Sunrise on the Reaping",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_1.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "18 Nov 2026",
+      "imdbRating": "7.6",
+      "description": "Release: 18 Nov 2026 | Rated: PG-13 | IMDb: 7.6"
+    },
+    {
+      "id": "tt39370926",
+      "type": "movie",
+      "name": "Never Surrender",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_2.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "11 Nov 2026",
+      "imdbRating": "6.8",
+      "description": "Release: 11 Nov 2026 | IMDb: 6.8"
+    },
+    {
+      "id": "tt6611324",
+      "type": "movie",
+      "name": "Guarding Stars",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_3.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "18 Nov 2026",
+      "imdbRating": "6.9",
+      "description": "Release: 18 Nov 2026 | IMDb: 6.9"
+    },
+    {
+      "id": "tt51165610",
+      "type": "movie",
+      "name": "Battle Through the Heavens: The Battle of Two Emperors",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "22 Nov 2026",
+      "imdbRating": "9.4",
+      "description": "Release: 22 Nov 2026 | IMDb: 9.4"
+    },
+    {
+      "id": "tt38686316",
+      "type": "movie",
+      "name": "Ghost Soldier",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_5.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "11 Nov 2026",
+      "imdbRating": "9.0",
+      "description": "Release: 11 Nov 2026 | Rated: U/A 16+ | IMDb: 9.0"
+    },
+    {
+      "id": "tt27988879",
+      "type": "movie",
+      "name": "Ramayana: Rise of a Legend",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_6.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "05 Nov 2026",
+      "imdbRating": "7.4",
+      "description": "Release: 05 Nov 2026 | Rated: U | IMDb: 7.4"
+    },
+    {
+      "id": "tt34384661",
+      "type": "movie",
+      "name": "Godzilla Minus Zero",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_7.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "20 Nov 2026",
+      "imdbRating": "7.7",
+      "description": "Release: 20 Nov 2026 | Rated: U/A 16+ | IMDb: 7.7"
+    },
+    {
+      "id": "tt38773219",
+      "type": "movie",
+      "name": "Ebenezer",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_8.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "11 Nov 2026",
+      "imdbRating": "7.5",
+      "description": "Release: 11 Nov 2026 | IMDb: 7.5"
+    },
+    {
+      "id": "tt18351090",
+      "type": "movie",
+      "name": "Perfect Liars",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_9.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "20 Nov 2026",
+      "imdbRating": "7.5",
+      "description": "Release: 20 Nov 2026 | IMDb: 7.5"
+    },
+    {
+      "id": "tt38213251",
+      "type": "movie",
+      "name": "Heartland",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_10.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "13 Nov 2026",
+      "imdbRating": "6.2",
+      "description": "Release: 13 Nov 2026 | Rated: R | IMDb: 6.2"
+    },
+    {
+      "id": "tt14413964",
+      "type": "movie",
+      "name": "Steps",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_11.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "20 Nov 2026",
+      "imdbRating": "6.8",
+      "description": "Release: 20 Nov 2026 | IMDb: 6.8"
+    },
+    {
+      "id": "tt24818230",
+      "type": "movie",
+      "name": "Madden",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_12.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "18 Nov 2026",
+      "imdbRating": "6.8",
+      "description": "Release: 18 Nov 2026 | IMDb: 6.8"
+    },
+    {
+      "id": "tt11995650",
+      "type": "movie",
+      "name": "I Play Rocky",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_13.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "13 Nov 2026",
+      "imdbRating": "8.4",
+      "description": "Release: 13 Nov 2026 | Rated: A | IMDb: 8.4"
+    },
+    {
+      "id": "tt35866986",
+      "type": "movie",
+      "name": "How to Rob a Bank",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_14.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "10 Nov 2026",
+      "imdbRating": "6.4",
+      "description": "Release: 10 Nov 2026 | Rated: R | IMDb: 6.4"
+    },
+    {
+      "id": "tt38077943",
+      "type": "movie",
+      "name": "Hexed",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/cinema_now_15.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "25 Nov 2026",
+      "imdbRating": "7.7",
+      "description": "Release: 25 Nov 2026 | IMDb: 7.7"
+    }
+  ]
+}

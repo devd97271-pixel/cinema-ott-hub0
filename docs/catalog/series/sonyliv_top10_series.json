@@ -1,0 +1,74 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:67192",
+      "type": "series",
+      "name": "New Japan Pro Wrestling",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/sonyliv_top10_series_1.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "06 Mar 1972",
+      "imdbRating": "8.0",
+      "description": "Release: 06 Mar 1972 | Rated: U | IMDb: 8.0 | OTT: SonyLIV"
+    },
+    {
+      "id": "tt2372162",
+      "type": "series",
+      "name": "Orange Is the New Black",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/sonyliv_top10_series_2.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "11 Jul 2013",
+      "imdbRating": "8.0",
+      "description": "Release: 11 Jul 2013 | Rated: A | IMDb: 8.0 | OTT: SonyLIV"
+    },
+    {
+      "id": "tt0202748",
+      "type": "series",
+      "name": "Popular",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/sonyliv_top10_series_3.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "29 Sep 1999",
+      "imdbRating": "7.4",
+      "description": "Release: 29 Sep 1999 | Rated: TV-14 | IMDb: 7.4 | OTT: SonyLIV"
+    },
+    {
+      "id": "tt43599867",
+      "type": "series",
+      "name": "20 Lists",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/sonyliv_top10_series_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "2026",
+      "imdbRating": null,
+      "description": "OTT: SonyLIV"
+    },
+    {
+      "id": "tt0165961",
+      "type": "series",
+      "name": "Sports Night",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/sonyliv_top10_series_5.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "22 Sep 1998",
+      "imdbRating": "8.3",
+      "description": "Release: 22 Sep 1998 | Rated: TV-PG | IMDb: 8.3 | OTT: SonyLIV"
+    },
+    {
+      "id": "tt2817246",
+      "type": "series",
+      "name": "Girlfriends' Guide to Divorce",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/sonyliv_top10_series_6.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "02 Dec 2014",
+      "imdbRating": "7.0",
+      "description": "Release: 02 Dec 2014 | Rated: TV-14 | IMDb: 7.0 | OTT: SonyLIV"
+    },
+    {
+      "id": "tt10285166",
+      "type": "series",
+      "name": "Your Honor",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/sonyliv_top10_series_7.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "18 Jun 2020",
+      "imdbRating": "7.2",
+      "description": "Release: 18 Jun 2020 | IMDb: 7.2 | OTT: SonyLIV"
+    }
+  ]
+}

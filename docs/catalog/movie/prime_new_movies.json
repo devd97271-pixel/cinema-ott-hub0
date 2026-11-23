@@ -1,0 +1,64 @@
+{
+  "metas": [
+    {
+      "id": "tt18351090",
+      "type": "movie",
+      "name": "Perfect Liars",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_movie_1.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "20 Nov 2026",
+      "imdbRating": "7.5",
+      "description": "Release: 20 Nov 2026 | IMDb: 7.5 | OTT: Prime Video"
+    },
+    {
+      "id": "tt24818230",
+      "type": "movie",
+      "name": "Madden",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_movie_2.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "18 Nov 2026",
+      "imdbRating": "6.8",
+      "description": "Release: 18 Nov 2026 | IMDb: 6.8 | OTT: Prime Video"
+    },
+    {
+      "id": "tt50016818",
+      "type": "movie",
+      "name": "Last Meal",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_movie_3.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "18 Nov 2026",
+      "imdbRating": "8.1",
+      "description": "Release: 18 Nov 2026 | IMDb: 8.1 | OTT: Prime Video"
+    },
+    {
+      "id": "tt32880540",
+      "type": "movie",
+      "name": "Agent Zeta",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_movie_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "13 Nov 2026",
+      "imdbRating": "6.7",
+      "description": "Release: 13 Nov 2026 | IMDb: 6.7 | OTT: Prime Video"
+    },
+    {
+      "id": "tt44878818",
+      "type": "movie",
+      "name": "Bouma",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_movie_5.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "12 Nov 2026",
+      "imdbRating": "4.0",
+      "description": "Release: 12 Nov 2026 | IMDb: 4.0 | OTT: Prime Video"
+    },
+    {
+      "id": "tt36939482",
+      "type": "movie",
+      "name": "Terrell & T.O.",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_movie_6.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "05 Nov 2026",
+      "imdbRating": "5.7",
+      "description": "Release: 05 Nov 2026 | Rated: TV-MA | IMDb: 5.7 | OTT: Prime Video"
+    }
+  ]
+}
