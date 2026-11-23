@@ -1,7 +1,6 @@
 import os
 import re
 import json
-import math
 import datetime
 import requests
 from io import BytesIO
@@ -18,9 +17,7 @@ NOW = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=5, minute
 TODAY_STR = NOW.strftime("%Y-%m-%d")
 YEAR_STR = NOW.strftime("%Y")
 
-# Now Showing: 1 Oct 2026 onwards up to today (newest released first)
 NOW_SHOWING_START = "2026-10-01"
-# Upcoming: from today up to 31 Dec 2026 (chronological day-by-day)
 UPCOMING_END = "2026-12-31"
 
 HEADERS = {
@@ -254,11 +251,6 @@ def search_tmdb_by_titles(titles, media_type, limit=15):
 
 
 def get_kolkata_cinema_movies(mode="now", limit=20):
-    """
-    - mode="now": movies released from 1 Oct 2026 up to TODAY_STR, sorted newest first.
-      Also includes any movie from Kolkata BMS whose release date is >= 1 Oct 2026 and <= TODAY_STR.
-    - mode="upcoming": movies from TODAY_STR up to 2026-12-31, sorted chronologically (day by day).
-    """
     bms_urls = [
         "https://in.bookmyshow.com/explore/movies-kolkata",
         "https://in.bookmyshow.com/kolkata/movies",
@@ -282,7 +274,6 @@ def get_kolkata_cinema_movies(mode="now", limit=20):
             if rd and NOW_SHOWING_START <= rd <= TODAY_STR:
                 filtered_bms.append(it)
 
-        # Combine & sort newest release date first
         combined = []
         seen = set()
         for it in tmdb_items + filtered_bms:
@@ -385,11 +376,7 @@ def format_date(date_str):
         return dt.strftime("%d %b %Y")
     except Exception:
         return date_str[:10]
-        def build_glass_number(num_str, font_size):
-        """
-    Creates a transparent 3D glass-effect numeral matching glossy clear glass
-    with bright rim highlights, bevels, and subtle refraction so the background shows through.
-    """
+def build_glass_number(num_str, font_size):
     font = get_font(font_size, bold=True)
     pad = 24
     temp = Image.new("RGBA", (font_size * 2 + pad * 2, font_size + pad * 2), (0, 0, 0, 0))
@@ -409,37 +396,25 @@ def format_date(date_str):
     gw, gh = glyph.size
     mask = glyph.split()[3]
 
-    # 1. Soft dark drop shadow
     shadow = Image.new("RGBA", (gw + 10, gh + 12), (0, 0, 0, 0))
     s_mask = mask.filter(ImageFilter.GaussianBlur(radius=4))
     shadow.paste((0, 0, 0, 130), (6, 8), s_mask)
 
-    # 2. Translucent glass body (mostly see-through so background shows clearly)
     glass_body = Image.new("RGBA", (gw, gh), (225, 240, 255, 36))
     body_out = Image.new("RGBA", (gw, gh), (0, 0, 0, 0))
     body_out.paste(glass_body, (0, 0), mask)
 
-    # 3. Inner bevel / glossy highlight (shifted slightly down-right inside mask)
     inner_glow_src = Image.new("RGBA", (gw, gh), (0, 0, 0, 0))
     ig_draw = ImageDraw.Draw(inner_glow_src)
     ig_draw.text((2, 2), num_str, font=font, fill=(255, 255, 255, 135))
     inner_glow = inner_glow_src.filter(ImageFilter.GaussianBlur(radius=1.5))
 
-    # 4. Crisp top-left glass rim highlight & bottom-right subtle reflection
     rim_top_src = Image.new("RGBA", (gw, gh), (0, 0, 0, 0))
     rt_draw = ImageDraw.Draw(rim_top_src)
     rt_draw.text((-2, -2), num_str, font=font, fill=(255, 255, 255, 235))
 
-    # Edge outline mask
     dilated = mask.filter(ImageFilter.MaxFilter(5))
     eroded = mask.filter(ImageFilter.MinFilter(3))
-    edge_ring = Image.composite(
-        Image.new("L", (gw, gh), 210),
-        Image.new("L", (gw, gh), 0),
-        Image.fromarray([abs(a - b) for a, b in zip(dilated.getdata(), eroded.getdata())], mode="L").resize((gw, gh))
-        if False else dilated,
-    )
-    # Build clean glass border using difference of blurred/morphed masks
     d_px = list(dilated.getdata())
     e_px = list(eroded.getdata())
     ring_px = [max(0, min(255, d_px[i] - e_px[i])) for i in range(len(d_px))]
@@ -456,7 +431,6 @@ def format_date(date_str):
     layer_fg.paste(rim_top_src, (0, 0), mask)
     layer_fg.paste((255, 255, 255, 225), (0, 0), ring_smooth)
 
-    # Top specular sheen band across upper half of the glass number
     sheen_mask = Image.new("L", (gw, gh), 0)
     sm_draw = ImageDraw.Draw(sheen_mask)
     sm_draw.polygon([(0, 0), (gw, 0), (gw, int(gh * 0.42)), (0, int(gh * 0.28))], fill=110)
@@ -492,7 +466,6 @@ def render_poster(
     else:
         bg = Image.new("RGBA", (W, H), (18, 20, 26, 255))
 
-    # Gentle left gradient so text is readable while background remains clearly visible
     grad = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     gdraw = ImageDraw.Draw(grad)
     for x in range(W):
@@ -626,7 +599,6 @@ def main():
     manifest_catalogs = []
     seen_keys = set()
 
-    # 1. In Cinema (1 Oct 2026 to today, newest released first)
     now_items = get_kolkata_cinema_movies(mode="now", limit=20)
     now_metas = [
         make_meta(it, "movie", "movie", f"in_cinema_{i}.jpg", glass_rank=None, platform=None)
@@ -634,7 +606,6 @@ def main():
     ]
     save_catalog("movie", "in_cinema", "In Cinema", now_metas, manifest_catalogs, seen_keys)
 
-    # 2. Upcoming in Cinema (today through 31 Dec 2026, day by day)
     up_items = get_kolkata_cinema_movies(mode="upcoming", limit=20)
     up_metas = [
         make_meta(it, "movie", "movie", f"upcoming_cinema_{i}.jpg", glass_rank=None, platform=None)
@@ -642,7 +613,6 @@ def main():
     ]
     save_catalog("movie", "upcoming_in_cinema", "Upcoming in Cinema", up_metas, manifest_catalogs, seen_keys)
 
-    # 3. OTT Platforms (Exact order & names; "movie"/"series" removed from New release names)
     for plat in PLATFORMS:
         pkey = plat["key"]
         pname = plat["name"]
@@ -678,7 +648,7 @@ def main():
 
     manifest = {
         "id": f"com.{GITHUB_USER.lower()}.kolkata.cinema.ott",
-        "version": "3.1.0",
+        "version": "3.2.0",
         "name": "Kolkata Cinema & OTT Hub",
         "description": "In Cinema, Upcoming in Cinema & OTT New Releases + Top 10",
         "resources": ["catalog"],
@@ -695,4 +665,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-                
+    
