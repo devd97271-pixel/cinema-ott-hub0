@@ -1,11 +1,12 @@
 import os
 import re
 import json
+import math
 import datetime
 import requests
 from io import BytesIO
 from bs4 import BeautifulSoup
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 TMDB_API_KEY = os.environ["TMDB_API_KEY"]
 OMDB_API_KEY = os.environ["OMDB_API_KEY"]
@@ -16,6 +17,11 @@ BASE_URL = f"https://{GITHUB_USER}.github.io/{REPO_NAME}"
 NOW = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=5, minutes=30)))
 TODAY_STR = NOW.strftime("%Y-%m-%d")
 YEAR_STR = NOW.strftime("%Y")
+
+# Now Showing: 1 Oct 2026 onwards up to today (newest released first)
+NOW_SHOWING_START = "2026-10-01"
+# Upcoming: from today up to 31 Dec 2026 (chronological day-by-day)
+UPCOMING_END = "2026-12-31"
 
 HEADERS = {
     "User-Agent": (
@@ -199,7 +205,7 @@ def get_provider_map():
     return {k: "|".join(v) for k, v in mapping.items() if v}
 
 
-def extract_page_titles(urls, limit=12):
+def extract_page_titles(urls, limit=15):
     junk = {
         "netflix", "prime video", "amazon prime video", "jiohotstar", "hotstar",
         "mx player", "amazon mx player", "sonyliv", "zee5", "apple tv+", "hoichoi",
@@ -229,7 +235,7 @@ def extract_page_titles(urls, limit=12):
     return []
 
 
-def search_tmdb_by_titles(titles, media_type, limit=12):
+def search_tmdb_by_titles(titles, media_type, limit=15):
     endpoint = "movie" if media_type == "movie" else "tv"
     out = []
     seen = set()
@@ -247,37 +253,71 @@ def search_tmdb_by_titles(titles, media_type, limit=12):
     return out
 
 
-def get_kolkata_cinema_movies(mode="now", limit=15):
+def get_kolkata_cinema_movies(mode="now", limit=20):
+    """
+    - mode="now": movies released from 1 Oct 2026 up to TODAY_STR, sorted newest first.
+      Also includes any movie from Kolkata BMS whose release date is >= 1 Oct 2026 and <= TODAY_STR.
+    - mode="upcoming": movies from TODAY_STR up to 2026-12-31, sorted chronologically (day by day).
+    """
     bms_urls = [
         "https://in.bookmyshow.com/explore/movies-kolkata",
         "https://in.bookmyshow.com/kolkata/movies",
     ]
-    bms_titles = extract_page_titles(bms_urls, limit=limit)
-    bms_items = search_tmdb_by_titles(bms_titles, "movie", limit=limit) if bms_titles else []
+    bms_titles = extract_page_titles(bms_urls, limit=25)
+    bms_items = search_tmdb_by_titles(bms_titles, "movie", limit=25) if bms_titles else []
 
     if mode == "now":
         tmdb_url = (
             f"https://api.themoviedb.org/3/discover/movie"
             f"?api_key={TMDB_API_KEY}&region=IN&with_release_type=2|3"
-            f"&primary_release_date.lte={TODAY_STR}&sort_by=popularity.desc&page=1"
+            f"&primary_release_date.gte={NOW_SHOWING_START}"
+            f"&primary_release_date.lte={TODAY_STR}"
+            f"&sort_by=primary_release_date.desc&page=1"
         )
+        tmdb_items = fetch_json(tmdb_url).get("results", [])
+
+        filtered_bms = []
+        for it in bms_items:
+            rd = (it.get("release_date") or "")[:10]
+            if rd and NOW_SHOWING_START <= rd <= TODAY_STR:
+                filtered_bms.append(it)
+
+        # Combine & sort newest release date first
+        combined = []
+        seen = set()
+        for it in tmdb_items + filtered_bms:
+            if it["id"] not in seen:
+                seen.add(it["id"])
+                combined.append(it)
+
+        combined.sort(key=lambda x: (x.get("release_date") or "1900-01-01"), reverse=True)
+        return combined[:limit]
+
     else:
         tmdb_url = (
             f"https://api.themoviedb.org/3/discover/movie"
             f"?api_key={TMDB_API_KEY}&region=IN&with_release_type=2|3"
-            f"&primary_release_date.gte={TODAY_STR}&sort_by=popularity.desc&page=1"
+            f"&primary_release_date.gte={TODAY_STR}"
+            f"&primary_release_date.lte={UPCOMING_END}"
+            f"&sort_by=primary_release_date.asc&page=1"
         )
+        tmdb_items = fetch_json(tmdb_url).get("results", [])
 
-    tmdb_items = fetch_json(tmdb_url).get("results", [])
-    merged = []
-    seen = set()
-    for item in bms_items + tmdb_items:
-        if item["id"] not in seen:
-            seen.add(item["id"])
-            merged.append(item)
-        if len(merged) >= limit:
-            break
-    return merged
+        filtered_bms = []
+        for it in bms_items:
+            rd = (it.get("release_date") or "")[:10]
+            if rd and TODAY_STR <= rd <= UPCOMING_END:
+                filtered_bms.append(it)
+
+        combined = []
+        seen = set()
+        for it in tmdb_items + filtered_bms:
+            if it["id"] not in seen:
+                seen.add(it["id"])
+                combined.append(it)
+
+        combined.sort(key=lambda x: (x.get("release_date") or "2099-12-31"))
+        return combined[:limit]
 
 
 def get_new_release_items(platform, media_type, provider_ids, limit=12):
@@ -345,6 +385,90 @@ def format_date(date_str):
         return dt.strftime("%d %b %Y")
     except Exception:
         return date_str[:10]
+        def build_glass_number(num_str, font_size):
+    """
+    Creates a transparent 3D glass-effect numeral matching glossy clear glass
+    with bright rim highlights, bevels, and subtle refraction so the background shows through.
+    """
+    font = get_font(font_size, bold=True)
+    pad = 24
+    temp = Image.new("RGBA", (font_size * 2 + pad * 2, font_size + pad * 2), (0, 0, 0, 0))
+    tdraw = ImageDraw.Draw(temp)
+    tdraw.text((pad, pad), num_str, font=font, fill=(255, 255, 255, 255))
+
+    bbox = temp.getbbox()
+    if not bbox:
+        return Image.new("RGBA", (10, 10), (0, 0, 0, 0))
+
+    glyph = temp.crop((
+        max(0, bbox[0] - 8),
+        max(0, bbox[1] - 8),
+        min(temp.width, bbox[2] + 12),
+        min(temp.height, bbox[3] + 14),
+    ))
+    gw, gh = glyph.size
+    mask = glyph.split()[3]
+
+    # 1. Soft dark drop shadow
+    shadow = Image.new("RGBA", (gw + 10, gh + 12), (0, 0, 0, 0))
+    s_mask = mask.filter(ImageFilter.GaussianBlur(radius=4))
+    shadow.paste((0, 0, 0, 130), (6, 8), s_mask)
+
+    # 2. Translucent glass body (mostly see-through so background shows clearly)
+    glass_body = Image.new("RGBA", (gw, gh), (225, 240, 255, 36))
+    body_out = Image.new("RGBA", (gw, gh), (0, 0, 0, 0))
+    body_out.paste(glass_body, (0, 0), mask)
+
+    # 3. Inner bevel / glossy highlight (shifted slightly down-right inside mask)
+    inner_glow_src = Image.new("RGBA", (gw, gh), (0, 0, 0, 0))
+    ig_draw = ImageDraw.Draw(inner_glow_src)
+    ig_draw.text((2, 2), num_str, font=font, fill=(255, 255, 255, 135))
+    inner_glow = inner_glow_src.filter(ImageFilter.GaussianBlur(radius=1.5))
+
+    # 4. Crisp top-left glass rim highlight & bottom-right subtle reflection
+    rim_top_src = Image.new("RGBA", (gw, gh), (0, 0, 0, 0))
+    rt_draw = ImageDraw.Draw(rim_top_src)
+    rt_draw.text((-2, -2), num_str, font=font, fill=(255, 255, 255, 235))
+
+    # Edge outline mask
+    dilated = mask.filter(ImageFilter.MaxFilter(5))
+    eroded = mask.filter(ImageFilter.MinFilter(3))
+    edge_ring = Image.composite(
+        Image.new("L", (gw, gh), 210),
+        Image.new("L", (gw, gh), 0),
+        Image.fromarray([abs(a - b) for a, b in zip(dilated.getdata(), eroded.getdata())], mode="L").resize((gw, gh))
+        if False else dilated,
+    )
+    # Build clean glass border using difference of blurred/morphed masks
+    d_px = list(dilated.getdata())
+    e_px = list(eroded.getdata())
+    ring_px = [max(0, min(255, d_px[i] - e_px[i])) for i in range(len(d_px))]
+    ring_mask = Image.new("L", (gw, gh))
+    ring_mask.putdata(ring_px)
+    ring_smooth = ring_mask.filter(ImageFilter.GaussianBlur(radius=0.8))
+
+    out = Image.new("RGBA", (gw + 10, gh + 12), (0, 0, 0, 0))
+    out = Image.alpha_composite(out, shadow)
+
+    layer_fg = Image.new("RGBA", (gw + 10, gh + 12), (0, 0, 0, 0))
+    layer_fg.paste(body_out, (0, 0))
+    layer_fg.paste(inner_glow, (0, 0), mask)
+    layer_fg.paste(rim_top_src, (0, 0), mask)
+    layer_fg.paste((255, 255, 255, 225), (0, 0), ring_smooth)
+
+    # Top specular sheen band across upper half of the glass number
+    sheen_mask = Image.new("L", (gw, gh), 0)
+    sm_draw = ImageDraw.Draw(sheen_mask)
+    sm_draw.polygon([(0, 0), (gw, 0), (gw, int(gh * 0.42)), (0, int(gh * 0.28))], fill=110)
+    sheen_combined = Image.new("L", (gw, gh), 0)
+    m_data = list(mask.getdata())
+    s_data = list(sheen_mask.getdata())
+    sheen_combined.putdata([(m_data[i] * s_data[i]) // 255 for i in range(len(m_data))])
+    layer_fg.paste((255, 255, 255, 95), (0, 0), sheen_combined)
+
+    return Image.alpha_composite(out, layer_fg)
+
+
 def render_poster(
     out_path,
     backdrop_url=None,
@@ -368,13 +492,14 @@ def render_poster(
     else:
         bg = Image.new("RGBA", (W, H), (18, 20, 26, 255))
 
+    # Gentle left gradient so text is readable while background remains clearly visible
     grad = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     gdraw = ImageDraw.Draw(grad)
     for x in range(W):
-        if x < 410:
-            alpha = int(225 - (x / 410) * 65)
-        elif x < 700:
-            alpha = int(160 - ((x - 410) / 290) * 160)
+        if x < 380:
+            alpha = int(185 - (x / 380) * 55)
+        elif x < 660:
+            alpha = int(130 - ((x - 380) / 280) * 130)
         else:
             alpha = 0
         gdraw.line([(x, 0), (x, H)], fill=(10, 12, 16, alpha))
@@ -391,21 +516,9 @@ def render_poster(
 
     if glass_rank is not None:
         num_str = str(glass_rank)
-        num_font = get_font(220 if len(num_str) == 1 else 184, bold=True)
-        num_layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-        ndraw = ImageDraw.Draw(num_layer)
-        nx, ny = 42, 8
-        ndraw.text((nx + 6, ny + 8), num_str, font=num_font, fill=(0, 0, 0, 140))
-        ndraw.text(
-            (nx, ny),
-            num_str,
-            font=num_font,
-            fill=(255, 255, 255, 82),
-            stroke_width=3,
-            stroke_fill=(255, 255, 255, 155),
-        )
-        bg = Image.alpha_composite(bg, num_layer)
-        cur_y = 278
+        g_img = build_glass_number(num_str, 210 if len(num_str) == 1 else 175)
+        bg.paste(g_img, (34, 8), g_img)
+        cur_y = 268
     else:
         cur_y = 140
 
@@ -490,9 +603,14 @@ def make_meta(item, media_type, stremio_type, img_name, glass_rank=None, platfor
     }
 
 
-def save_catalog(stremio_type, cat_id, cat_name, metas, manifest_catalogs):
+def save_catalog(stremio_type, cat_id, cat_name, metas, manifest_catalogs, seen_keys):
     if not metas:
         return
+    unique_key = f"{stremio_type}:{cat_id}:{cat_name}"
+    if unique_key in seen_keys:
+        return
+    seen_keys.add(unique_key)
+
     with open(f"docs/catalog/{stremio_type}/{cat_id}.json", "w", encoding="utf-8") as f:
         json.dump({"metas": metas}, f, ensure_ascii=False, indent=2)
     manifest_catalogs.append({
@@ -506,21 +624,25 @@ def save_catalog(stremio_type, cat_id, cat_name, metas, manifest_catalogs):
 def main():
     provider_map = get_provider_map()
     manifest_catalogs = []
+    seen_keys = set()
 
-    now_items = get_kolkata_cinema_movies(mode="now", limit=15)
+    # 1. In Cinema (1 Oct 2026 to today, newest released first)
+    now_items = get_kolkata_cinema_movies(mode="now", limit=20)
     now_metas = [
         make_meta(it, "movie", "movie", f"in_cinema_{i}.jpg", glass_rank=None, platform=None)
         for i, it in enumerate(now_items, start=1)
     ]
-    save_catalog("movie", "in_cinema", "In Cinema", now_metas, manifest_catalogs)
+    save_catalog("movie", "in_cinema", "In Cinema", now_metas, manifest_catalogs, seen_keys)
 
-    up_items = get_kolkata_cinema_movies(mode="upcoming", limit=15)
+    # 2. Upcoming in Cinema (today through 31 Dec 2026, day by day)
+    up_items = get_kolkata_cinema_movies(mode="upcoming", limit=20)
     up_metas = [
         make_meta(it, "movie", "movie", f"upcoming_cinema_{i}.jpg", glass_rank=None, platform=None)
         for i, it in enumerate(up_items, start=1)
     ]
-    save_catalog("movie", "upcoming_in_cinema", "Upcoming in Cinema", up_metas, manifest_catalogs)
+    save_catalog("movie", "upcoming_in_cinema", "Upcoming in Cinema", up_metas, manifest_catalogs, seen_keys)
 
+    # 3. OTT Platforms (Exact order & names; "movie"/"series" removed from New release names)
     for plat in PLATFORMS:
         pkey = plat["key"]
         pname = plat["name"]
@@ -531,32 +653,32 @@ def main():
             make_meta(it, "movie", "movie", f"{pkey}_new_m_{i}.jpg", glass_rank=None, platform=plat)
             for i, it in enumerate(new_m_items, start=1)
         ]
-        save_catalog("movie", f"{pkey}_new_movie", f"New release in {pname} movie", new_m_metas, manifest_catalogs)
+        save_catalog("movie", f"{pkey}_new_movie", f"New release in {pname}", new_m_metas, manifest_catalogs, seen_keys)
 
         new_s_items = get_new_release_items(plat, "tv", pids, limit=12)
         new_s_metas = [
             make_meta(it, "tv", "series", f"{pkey}_new_s_{i}.jpg", glass_rank=None, platform=plat)
             for i, it in enumerate(new_s_items, start=1)
         ]
-        save_catalog("series", f"{pkey}_new_series", f"New release in {pname} series", new_s_metas, manifest_catalogs)
+        save_catalog("series", f"{pkey}_new_series", f"New release in {pname}", new_s_metas, manifest_catalogs, seen_keys)
 
         top_m_items = get_top10_items(plat, "movie", pids, limit=10)
         top_m_metas = [
             make_meta(it, "movie", "movie", f"{pkey}_top10_m_{i}.jpg", glass_rank=i, platform=plat)
             for i, it in enumerate(top_m_items, start=1)
         ]
-        save_catalog("movie", f"{pkey}_top10_movies", f"Top 10 movies in {pname}", top_m_metas, manifest_catalogs)
+        save_catalog("movie", f"{pkey}_top10_movies", f"Top 10 movies in {pname}", top_m_metas, manifest_catalogs, seen_keys)
 
         top_s_items = get_top10_items(plat, "tv", pids, limit=10)
         top_s_metas = [
             make_meta(it, "tv", "series", f"{pkey}_top10_s_{i}.jpg", glass_rank=i, platform=plat)
             for i, it in enumerate(top_s_items, start=1)
         ]
-        save_catalog("series", f"{pkey}_top10_series", f"Top 10 series in {pname}", top_s_metas, manifest_catalogs)
+        save_catalog("series", f"{pkey}_top10_series", f"Top 10 series in {pname}", top_s_metas, manifest_catalogs, seen_keys)
 
     manifest = {
         "id": f"com.{GITHUB_USER.lower()}.kolkata.cinema.ott",
-        "version": "3.0.0",
+        "version": "3.1.0",
         "name": "Kolkata Cinema & OTT Hub",
         "description": "In Cinema, Upcoming in Cinema & OTT New Releases + Top 10",
         "resources": ["catalog"],
@@ -573,4 +695,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-  
+                
