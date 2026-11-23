@@ -293,7 +293,7 @@ def resolve_platform_titles(platform, media_type, limit=10):
             break
 
     return matched_items
-                                 def render_card(
+def render_card(
     out_path,
     backdrop_url=None,
     logo_url=None,
@@ -570,3 +570,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
