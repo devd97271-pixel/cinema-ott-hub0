@@ -1,8 +1,8 @@
 {
-  "id": "com.devd97271-pixel.india.cinema.ott.hub",
-  "version": "2.1.0",
-  "name": "India Cinema & OTT Hub",
-  "description": "Monthly Cinema & OTT Hub (November 2026) with Glass Top 10, IMDb, Age & Release Dates",
+  "id": "com.devd97271-pixel.kolkata.cinema.ott",
+  "version": "3.0.0",
+  "name": "Kolkata Cinema & OTT Hub",
+  "description": "In Cinema, Upcoming in Cinema & OTT New Releases + Top 10",
   "resources": [
     "catalog"
   ],
@@ -13,153 +13,173 @@
   "catalogs": [
     {
       "type": "movie",
-      "id": "cinema_new_releases",
-      "name": "New Release in Cinema (November 2026)"
+      "id": "in_cinema",
+      "name": "In Cinema"
     },
     {
       "type": "movie",
-      "id": "cinema_upcoming_movies",
-      "name": "Upcoming Movies in Cinema"
+      "id": "upcoming_in_cinema",
+      "name": "Upcoming in Cinema"
     },
     {
       "type": "movie",
-      "id": "netflix_new_movies",
-      "name": "Netflix - New Release Movies"
+      "id": "netflix_new_movie",
+      "name": "New release in Netflix movie"
     },
     {
       "type": "series",
       "id": "netflix_new_series",
-      "name": "Netflix - New Release Series"
+      "name": "New release in Netflix series"
     },
     {
       "type": "movie",
       "id": "netflix_top10_movies",
-      "name": "Netflix - Top 10 Movies"
+      "name": "Top 10 movies in Netflix"
     },
     {
       "type": "series",
       "id": "netflix_top10_series",
-      "name": "Netflix - Top 10 Series"
+      "name": "Top 10 series in Netflix"
     },
     {
       "type": "movie",
-      "id": "prime_new_movies",
-      "name": "Prime Video - New Release Movies"
+      "id": "prime_new_movie",
+      "name": "New release in Prime Video movie"
     },
     {
       "type": "series",
       "id": "prime_new_series",
-      "name": "Prime Video - New Release Series"
+      "name": "New release in Prime Video series"
     },
     {
       "type": "movie",
       "id": "prime_top10_movies",
-      "name": "Prime Video - Top 10 Movies"
+      "name": "Top 10 movies in Prime Video"
     },
     {
       "type": "series",
       "id": "prime_top10_series",
-      "name": "Prime Video - Top 10 Series"
+      "name": "Top 10 series in Prime Video"
     },
     {
       "type": "movie",
-      "id": "jiohotstar_new_movies",
-      "name": "JioHotstar - New Release Movies"
+      "id": "jiohotstar_new_movie",
+      "name": "New release in JioHotstar movie"
     },
     {
       "type": "series",
       "id": "jiohotstar_new_series",
-      "name": "JioHotstar - New Release Series"
+      "name": "New release in JioHotstar series"
     },
     {
       "type": "movie",
       "id": "jiohotstar_top10_movies",
-      "name": "JioHotstar - Top 10 Movies"
+      "name": "Top 10 movies in JioHotstar"
     },
     {
       "type": "series",
       "id": "jiohotstar_top10_series",
-      "name": "JioHotstar - Top 10 Series"
+      "name": "Top 10 series in JioHotstar"
+    },
+    {
+      "type": "movie",
+      "id": "mxplayer_new_movie",
+      "name": "New release in Amazon MX Player movie"
+    },
+    {
+      "type": "series",
+      "id": "mxplayer_new_series",
+      "name": "New release in Amazon MX Player series"
     },
     {
       "type": "movie",
       "id": "mxplayer_top10_movies",
-      "name": "Amazon MX Player - Top 10 Movies"
+      "name": "Top 10 movies in Amazon MX Player"
     },
     {
       "type": "series",
       "id": "mxplayer_top10_series",
-      "name": "Amazon MX Player - Top 10 Series"
+      "name": "Top 10 series in Amazon MX Player"
     },
     {
       "type": "movie",
-      "id": "sonyliv_new_movies",
-      "name": "SonyLIV - New Release Movies"
+      "id": "sonyliv_new_movie",
+      "name": "New release in SonyLIV movie"
     },
     {
       "type": "series",
       "id": "sonyliv_new_series",
-      "name": "SonyLIV - New Release Series"
+      "name": "New release in SonyLIV series"
     },
     {
       "type": "movie",
       "id": "sonyliv_top10_movies",
-      "name": "SonyLIV - Top 10 Movies"
+      "name": "Top 10 movies in SonyLIV"
     },
     {
       "type": "series",
       "id": "sonyliv_top10_series",
-      "name": "SonyLIV - Top 10 Series"
+      "name": "Top 10 series in SonyLIV"
     },
     {
       "type": "movie",
-      "id": "zee5_new_movies",
-      "name": "ZEE5 - New Release Movies"
+      "id": "zee5_new_movie",
+      "name": "New release in ZEE5 movie"
+    },
+    {
+      "type": "series",
+      "id": "zee5_new_series",
+      "name": "New release in ZEE5 series"
     },
     {
       "type": "movie",
       "id": "zee5_top10_movies",
-      "name": "ZEE5 - Top 10 Movies"
+      "name": "Top 10 movies in ZEE5"
     },
     {
       "type": "series",
       "id": "zee5_top10_series",
-      "name": "ZEE5 - Top 10 Series"
+      "name": "Top 10 series in ZEE5"
     },
     {
       "type": "movie",
-      "id": "appletv_new_movies",
-      "name": "Apple TV+ - New Release Movies"
+      "id": "appletv_new_movie",
+      "name": "New release in Apple TV+ movie"
     },
     {
       "type": "series",
       "id": "appletv_new_series",
-      "name": "Apple TV+ - New Release Series"
+      "name": "New release in Apple TV+ series"
     },
     {
       "type": "movie",
       "id": "appletv_top10_movies",
-      "name": "Apple TV+ - Top 10 Movies"
+      "name": "Top 10 movies in Apple TV+"
     },
     {
       "type": "series",
       "id": "appletv_top10_series",
-      "name": "Apple TV+ - Top 10 Series"
+      "name": "Top 10 series in Apple TV+"
+    },
+    {
+      "type": "movie",
+      "id": "hoichoi_new_movie",
+      "name": "New release in Hoichoi movie"
     },
     {
       "type": "series",
       "id": "hoichoi_new_series",
-      "name": "Hoichoi - New Release Series"
+      "name": "New release in Hoichoi series"
     },
     {
       "type": "movie",
       "id": "hoichoi_top10_movies",
-      "name": "Hoichoi - Top 10 Movies"
+      "name": "Top 10 movies in Hoichoi"
     },
     {
       "type": "series",
       "id": "hoichoi_top10_series",
-      "name": "Hoichoi - Top 10 Series"
+      "name": "Top 10 series in Hoichoi"
     }
   ],
   "idPrefixes": [

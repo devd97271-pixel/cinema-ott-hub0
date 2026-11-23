@@ -1,0 +1,154 @@
+{
+  "metas": [
+    {
+      "id": "tt0371746",
+      "type": "movie",
+      "name": "Iron Man",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_1.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "01 May 2008",
+      "imdbRating": "7.9",
+      "description": "01 May 2008 • UA • IMDb 7.9"
+    },
+    {
+      "id": "tt33764258",
+      "type": "movie",
+      "name": "The Odyssey",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_2.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "17 Jul 2026",
+      "imdbRating": "8.4",
+      "description": "17 Jul 2026 • A • IMDb 8.4"
+    },
+    {
+      "id": "tt7526136",
+      "type": "movie",
+      "name": "Heart of the Beast",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_3.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "25 Sep 2026",
+      "imdbRating": "7.1",
+      "description": "25 Sep 2026 • U/A 16+ • IMDb 7.1"
+    },
+    {
+      "id": "tt32558705",
+      "type": "movie",
+      "name": "The Hunger Games: Sunrise on the Reaping",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "18 Nov 2026",
+      "imdbRating": "7.6",
+      "description": "18 Nov 2026 • PG-13 • IMDb 7.6"
+    },
+    {
+      "id": "tt36586020",
+      "type": "movie",
+      "name": "Other Mommy",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_5.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "07 Oct 2026",
+      "imdbRating": "6.5",
+      "description": "07 Oct 2026 • R • IMDb 6.5"
+    },
+    {
+      "id": "tt22084616",
+      "type": "movie",
+      "name": "Spider-Man: Brand New Day",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_6.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "30 Jul 2026",
+      "imdbRating": "8.0",
+      "description": "30 Jul 2026 • U/A 13+ • IMDb 8.0"
+    },
+    {
+      "id": "tt35538033",
+      "type": "movie",
+      "name": "Resident Evil",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_7.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "17 Sep 2026",
+      "imdbRating": "7.5",
+      "description": "17 Sep 2026 • A • IMDb 7.5"
+    },
+    {
+      "id": "tt27369017",
+      "type": "movie",
+      "name": "Hope",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_8.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "23 Oct 2026",
+      "imdbRating": "6.9",
+      "description": "23 Oct 2026 • A • IMDb 6.9"
+    },
+    {
+      "id": "tt39370926",
+      "type": "movie",
+      "name": "Never Surrender",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_9.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "11 Nov 2026",
+      "imdbRating": "6.8",
+      "description": "11 Nov 2026 • IMDb 6.8"
+    },
+    {
+      "id": "tt37522541",
+      "type": "movie",
+      "name": "Apocalypse Z: New World",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_10.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "09 Oct 2026",
+      "imdbRating": "6.2",
+      "description": "09 Oct 2026 • IMDb 6.2"
+    },
+    {
+      "id": "tt6611324",
+      "type": "movie",
+      "name": "Guarding Stars",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_11.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "18 Nov 2026",
+      "imdbRating": "6.9",
+      "description": "18 Nov 2026 • IMDb 6.9"
+    },
+    {
+      "id": "tt10377864",
+      "type": "movie",
+      "name": "Beware Boiúna",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_12.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "01 Oct 2026",
+      "imdbRating": "5.9",
+      "description": "01 Oct 2026 • IMDb 5.9"
+    },
+    {
+      "id": "tt50389959",
+      "type": "movie",
+      "name": "A Story of Derry",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_13.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "31 Oct 2026",
+      "imdbRating": "6.6",
+      "description": "31 Oct 2026 • IMDb 6.6"
+    },
+    {
+      "id": "tt51165610",
+      "type": "movie",
+      "name": "Battle Through the Heavens: The Battle of Two Emperors",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_14.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "22 Nov 2026",
+      "imdbRating": "9.4",
+      "description": "22 Nov 2026 • IMDb 9.4"
+    },
+    {
+      "id": "tt38686316",
+      "type": "movie",
+      "name": "Ghost Soldier",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_15.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "11 Nov 2026",
+      "imdbRating": "9.0",
+      "description": "11 Nov 2026 • U/A 16+ • IMDb 9.0"
+    }
+  ]
+}

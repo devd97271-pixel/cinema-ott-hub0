@@ -1,124 +1,74 @@
 {
   "metas": [
     {
-      "id": "tt8014982",
+      "id": "tmdb:67192",
       "type": "series",
-      "name": "The Body",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_series_1.jpg",
+      "name": "New Japan Pro Wrestling",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_s_1.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "11 Nov 2026",
+      "releaseInfo": "06 Mar 1972",
       "imdbRating": "8.0",
-      "description": "Release: 11 Nov 2026 | Rated: A | IMDb: 8.0 | OTT: Netflix"
+      "description": "06 Mar 1972 • U • IMDb 8.0 • Netflix"
     },
     {
-      "id": "tt38336631",
+      "id": "tt0202748",
       "type": "series",
-      "name": "The Blue Road",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_series_2.jpg",
+      "name": "Popular",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_s_2.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "20 Nov 2026",
-      "imdbRating": "7.7",
-      "description": "Release: 20 Nov 2026 | IMDb: 7.7 | OTT: Netflix"
-    },
-    {
-      "id": "tt36786185",
-      "type": "series",
-      "name": "The Altruists",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_series_3.jpg",
-      "posterShape": "landscape",
-      "releaseInfo": "19 Nov 2026",
-      "imdbRating": "6.3",
-      "description": "Release: 19 Nov 2026 | Rated: A | IMDb: 6.3 | OTT: Netflix"
-    },
-    {
-      "id": "tt44079238",
-      "type": "series",
-      "name": "The Law of Beasts",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_series_4.jpg",
-      "posterShape": "landscape",
-      "releaseInfo": "18 Nov 2026",
-      "imdbRating": "6.6",
-      "description": "Release: 18 Nov 2026 | IMDb: 6.6 | OTT: Netflix"
-    },
-    {
-      "id": "tt41559886",
-      "type": "series",
-      "name": "Gordon",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_series_5.jpg",
-      "posterShape": "landscape",
-      "releaseInfo": "18 Nov 2026",
-      "imdbRating": "6.7",
-      "description": "Release: 18 Nov 2026 | IMDb: 6.7 | OTT: Netflix"
-    },
-    {
-      "id": "tt39494650",
-      "type": "series",
-      "name": "Miracles of the ER",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_series_6.jpg",
-      "posterShape": "landscape",
-      "releaseInfo": "12 Nov 2026",
-      "imdbRating": "7.5",
-      "description": "Release: 12 Nov 2026 | IMDb: 7.5 | OTT: Netflix"
-    },
-    {
-      "id": "tt47021035",
-      "type": "series",
-      "name": "Cunk on Cinema",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_series_7.jpg",
-      "posterShape": "landscape",
-      "releaseInfo": "12 Nov 2026",
+      "releaseInfo": "29 Sep 1999",
       "imdbRating": "7.4",
-      "description": "Release: 12 Nov 2026 | IMDb: 7.4 | OTT: Netflix"
+      "description": "29 Sep 1999 • TV-14 • IMDb 7.4 • Netflix"
     },
     {
-      "id": "tt39390491",
+      "id": "tt43599867",
       "type": "series",
-      "name": "Alicia's Law",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_series_8.jpg",
+      "name": "20 Lists",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_s_3.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "11 Nov 2026",
-      "imdbRating": "6.4",
-      "description": "Release: 11 Nov 2026 | Rated: A | IMDb: 6.4 | OTT: Netflix"
+      "releaseInfo": "2026",
+      "imdbRating": null,
+      "description": "Netflix"
     },
     {
-      "id": "tt38707741",
+      "id": "tt0165961",
       "type": "series",
-      "name": "Murder in Galicia",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_series_9.jpg",
+      "name": "Sports Night",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_s_4.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "13 Nov 2026",
-      "imdbRating": "6.5",
-      "description": "Release: 13 Nov 2026 | IMDb: 6.5 | OTT: Netflix"
+      "releaseInfo": "22 Sep 1998",
+      "imdbRating": "8.3",
+      "description": "22 Sep 1998 • TV-PG • IMDb 8.3 • Netflix"
     },
     {
-      "id": "tt39957390",
+      "id": "tt2817246",
       "type": "series",
-      "name": "Bass X Machina",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_series_10.jpg",
+      "name": "Girlfriends' Guide to Divorce",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_s_5.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "03 Nov 2026",
-      "imdbRating": "7.8",
-      "description": "Release: 03 Nov 2026 | Rated: U/A 16+ | IMDb: 7.8 | OTT: Netflix"
-    },
-    {
-      "id": "tt39161219",
-      "type": "series",
-      "name": "Valentina and the 12 Signs",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_series_11.jpg",
-      "posterShape": "landscape",
-      "releaseInfo": "18 Nov 2026",
+      "releaseInfo": "02 Dec 2014",
       "imdbRating": "7.0",
-      "description": "Release: 18 Nov 2026 | IMDb: 7.0 | OTT: Netflix"
+      "description": "02 Dec 2014 • TV-14 • IMDb 7.0 • Netflix"
     },
     {
-      "id": "tt37762350",
+      "id": "tt3125398",
       "type": "series",
-      "name": "Under Siege",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_series_12.jpg",
+      "name": "Lesya + Roma",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_s_6.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "06 Nov 2026",
-      "imdbRating": "7.2",
-      "description": "Release: 06 Nov 2026 | IMDb: 7.2 | OTT: Netflix"
+      "releaseInfo": "14 Jan 2005",
+      "imdbRating": "7.7",
+      "description": "14 Jan 2005 • IMDb 7.7 • Netflix"
+    },
+    {
+      "id": "tt26679485",
+      "type": "series",
+      "name": "The Story of Park's Marriage Contract",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_new_s_7.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "24 Nov 2023",
+      "imdbRating": "7.5",
+      "description": "24 Nov 2023 • IMDb 7.5 • Netflix"
     }
   ]
 }

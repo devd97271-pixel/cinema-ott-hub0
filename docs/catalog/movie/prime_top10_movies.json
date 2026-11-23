@@ -4,61 +4,51 @@
       "id": "tt0839980",
       "type": "movie",
       "name": "Semi-Pro",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_top10_movie_1.jpg",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_top10_m_1.jpg",
       "posterShape": "landscape",
       "releaseInfo": "28 Feb 2008",
       "imdbRating": "5.8",
-      "description": "Release: 28 Feb 2008 | Rated: R | IMDb: 5.8 | OTT: Prime Video"
-    },
-    {
-      "id": "tt22084616",
-      "type": "movie",
-      "name": "Spider-Man: Brand New Day",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_top10_movie_2.jpg",
-      "posterShape": "landscape",
-      "releaseInfo": "30 Jul 2026",
-      "imdbRating": "8.0",
-      "description": "Release: 30 Jul 2026 | Rated: U/A 13+ | IMDb: 8.0 | OTT: Prime Video"
+      "description": "28 Feb 2008 • R • IMDb 5.8 • Prime Video"
     },
     {
       "id": "tt21956238",
       "type": "movie",
       "name": "Popular Theory",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_top10_movie_3.jpg",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_top10_m_2.jpg",
       "posterShape": "landscape",
       "releaseInfo": "09 Feb 2024",
       "imdbRating": "5.9",
-      "description": "Release: 09 Feb 2024 | Rated: PG | IMDb: 5.9 | OTT: Prime Video"
+      "description": "09 Feb 2024 • PG • IMDb 5.9 • Prime Video"
     },
     {
       "id": "tmdb:986406",
       "type": "movie",
       "name": "Wallace's Lists",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_top10_movie_4.jpg",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_top10_m_3.jpg",
       "posterShape": "landscape",
       "releaseInfo": "01 Jan 2007",
       "imdbRating": null,
-      "description": "Release: 01 Jan 2007 | OTT: Prime Video"
+      "description": "01 Jan 2007 • Prime Video"
     },
     {
       "id": "tt9191040",
       "type": "movie",
       "name": "Sports!",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_top10_movie_5.jpg",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_top10_m_4.jpg",
       "posterShape": "landscape",
       "releaseInfo": "22 Jun 2018",
       "imdbRating": "6.6",
-      "description": "Release: 22 Jun 2018 | IMDb: 6.6 | OTT: Prime Video"
+      "description": "22 Jun 2018 • IMDb 6.6 • Prime Video"
     },
     {
       "id": "tt1727776",
       "type": "movie",
       "name": "Scouts Guide to the Zombie Apocalypse",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_top10_movie_6.jpg",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_top10_m_5.jpg",
       "posterShape": "landscape",
       "releaseInfo": "23 Oct 2015",
       "imdbRating": "6.3",
-      "description": "Release: 23 Oct 2015 | Rated: R | IMDb: 6.3 | OTT: Prime Video"
+      "description": "23 Oct 2015 • R • IMDb 6.3 • Prime Video"
     }
   ]
 }

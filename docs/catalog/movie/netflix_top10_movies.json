@@ -4,51 +4,51 @@
       "id": "tmdb:1834398",
       "type": "movie",
       "name": "You are currently adding a movie in en-US (English - United States of America)",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_movie_1.jpg",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_m_1.jpg",
       "posterShape": "landscape",
       "releaseInfo": "2026",
       "imdbRating": null,
-      "description": "OTT: Netflix"
+      "description": "Netflix"
     },
     {
       "id": "tt1263750",
       "type": "movie",
       "name": "Room in Rome",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_movie_2.jpg",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_m_2.jpg",
       "posterShape": "landscape",
       "releaseInfo": "07 May 2010",
       "imdbRating": "6.0",
-      "description": "Release: 07 May 2010 | Rated: Not Rated | IMDb: 6.0 | OTT: Netflix"
+      "description": "07 May 2010 • Not Rated • IMDb 6.0 • Netflix"
     },
     {
       "id": "tt0274166",
       "type": "movie",
       "name": "Johnny English",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_movie_3.jpg",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_m_3.jpg",
       "posterShape": "landscape",
       "releaseInfo": "14 Mar 2003",
       "imdbRating": "6.3",
-      "description": "Release: 14 Mar 2003 | Rated: PG | IMDb: 6.3 | OTT: Netflix"
+      "description": "14 Mar 2003 • PG • IMDb 6.3 • Netflix"
     },
     {
       "id": "tt0057393",
       "type": "movie",
       "name": "PT 109",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_movie_4.jpg",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_m_4.jpg",
       "posterShape": "landscape",
       "releaseInfo": "26 Jun 1963",
       "imdbRating": "6.7",
-      "description": "Release: 26 Jun 1963 | Rated: Approved | IMDb: 6.7 | OTT: Netflix"
+      "description": "26 Jun 1963 • Approved • IMDb 6.7 • Netflix"
     },
     {
       "id": "tt0088670",
       "type": "movie",
       "name": "A Portuguese Farewell",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_movie_5.jpg",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/netflix_top10_m_5.jpg",
       "posterShape": "landscape",
       "releaseInfo": "16 Apr 1986",
       "imdbRating": "6.2",
-      "description": "Release: 16 Apr 1986 | IMDb: 6.2 | OTT: Netflix"
+      "description": "16 Apr 1986 • IMDb 6.2 • Netflix"
     }
   ]
 }

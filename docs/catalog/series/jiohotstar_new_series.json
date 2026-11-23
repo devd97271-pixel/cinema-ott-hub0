@@ -1,84 +1,74 @@
 {
   "metas": [
     {
-      "id": "tt28450216",
+      "id": "tmdb:67192",
       "type": "series",
-      "name": "Student of the Year: After Dark",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_1.jpg",
+      "name": "New Japan Pro Wrestling",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_s_1.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "13 Nov 2026",
+      "releaseInfo": "06 Mar 1972",
       "imdbRating": "8.0",
-      "description": "Release: 13 Nov 2026 | IMDb: 8.0 | OTT: JioHotstar"
+      "description": "06 Mar 1972 • U • IMDb 8.0 • JioHotstar"
     },
     {
-      "id": "tt42006761",
+      "id": "tt0202748",
       "type": "series",
-      "name": "The Secret Lives of Mormon Wives: Orange County",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_2.jpg",
+      "name": "Popular",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_s_2.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "12 Nov 2026",
-      "imdbRating": "3.3",
-      "description": "Release: 12 Nov 2026 | IMDb: 3.3 | OTT: JioHotstar"
+      "releaseInfo": "29 Sep 1999",
+      "imdbRating": "7.4",
+      "description": "29 Sep 1999 • TV-14 • IMDb 7.4 • JioHotstar"
     },
     {
-      "id": "tt50135019",
+      "id": "tt43599867",
       "type": "series",
-      "name": "Get Huge: Looksmaxxing to Death",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_3.jpg",
+      "name": "20 Lists",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_s_3.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "10 Nov 2026",
+      "releaseInfo": "2026",
+      "imdbRating": null,
+      "description": "JioHotstar"
+    },
+    {
+      "id": "tt0165961",
+      "type": "series",
+      "name": "Sports Night",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_s_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "22 Sep 1998",
+      "imdbRating": "8.3",
+      "description": "22 Sep 1998 • TV-PG • IMDb 8.3 • JioHotstar"
+    },
+    {
+      "id": "tt2817246",
+      "type": "series",
+      "name": "Girlfriends' Guide to Divorce",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_s_5.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "02 Dec 2014",
       "imdbRating": "7.0",
-      "description": "Release: 10 Nov 2026 | IMDb: 7.0 | OTT: JioHotstar"
+      "description": "02 Dec 2014 • TV-14 • IMDb 7.0 • JioHotstar"
     },
     {
-      "id": "tt50135636",
+      "id": "tt0178142",
       "type": "series",
-      "name": "Mr & Mrs Office",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_4.jpg",
+      "name": "In All Friendship",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_s_6.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "18 Nov 2026",
-      "imdbRating": null,
-      "description": "Release: 18 Nov 2026 | OTT: JioHotstar"
+      "releaseInfo": "26 Oct 1998",
+      "imdbRating": "4.6",
+      "description": "26 Oct 1998 • IMDb 4.6 • JioHotstar"
     },
     {
-      "id": "tt49910378",
+      "id": "tt36517681",
       "type": "series",
-      "name": "The Circle",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_5.jpg",
+      "name": "Catalog",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_s_7.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "17 Nov 2026",
-      "imdbRating": null,
-      "description": "Release: 17 Nov 2026 | OTT: JioHotstar"
-    },
-    {
-      "id": "tt50986266",
-      "type": "series",
-      "name": "Maniacs of the Truth",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_6.jpg",
-      "posterShape": "landscape",
-      "releaseInfo": "13 Nov 2026",
-      "imdbRating": "8.5",
-      "description": "Release: 13 Nov 2026 | IMDb: 8.5 | OTT: JioHotstar"
-    },
-    {
-      "id": "tt50089775",
-      "type": "series",
-      "name": "Pushpaka Vimanam",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_7.jpg",
-      "posterShape": "landscape",
-      "releaseInfo": "12 Nov 2026",
-      "imdbRating": null,
-      "description": "Release: 12 Nov 2026 | OTT: JioHotstar"
-    },
-    {
-      "id": "tmdb:341555",
-      "type": "series",
-      "name": "The Killing of the Golden Rooster",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/jiohotstar_new_series_8.jpg",
-      "posterShape": "landscape",
-      "releaseInfo": "12 Nov 2026",
-      "imdbRating": null,
-      "description": "Release: 12 Nov 2026 | OTT: JioHotstar"
+      "releaseInfo": "17 Jul 2025",
+      "imdbRating": "7.6",
+      "description": "17 Jul 2025 • TV-14 • IMDb 7.6 • JioHotstar"
     }
   ]
 }

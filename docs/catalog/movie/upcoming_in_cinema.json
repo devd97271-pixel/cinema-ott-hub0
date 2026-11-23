@@ -1,0 +1,154 @@
+{
+  "metas": [
+    {
+      "id": "tt21357150",
+      "type": "movie",
+      "name": "Avengers: Doomsday",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_1.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "17 Dec 2026",
+      "imdbRating": null,
+      "description": "17 Dec 2026"
+    },
+    {
+      "id": "tt38077943",
+      "type": "movie",
+      "name": "Hexed",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_2.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "25 Nov 2026",
+      "imdbRating": "7.7",
+      "description": "25 Nov 2026 • IMDb 7.7"
+    },
+    {
+      "id": "tt31378509",
+      "type": "movie",
+      "name": "Dune: Part Three",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_3.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "18 Dec 2026",
+      "imdbRating": null,
+      "description": "18 Dec 2026"
+    },
+    {
+      "id": "tt17055444",
+      "type": "movie",
+      "name": "Hershey",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "25 Nov 2026",
+      "imdbRating": "9.3",
+      "description": "25 Nov 2026 • IMDb 9.3"
+    },
+    {
+      "id": "tt34512981",
+      "type": "movie",
+      "name": "Ice Age: Boiling Point",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_5.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "28 Jan 2027",
+      "imdbRating": null,
+      "description": "28 Jan 2027"
+    },
+    {
+      "id": "tt36408401",
+      "type": "movie",
+      "name": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_6.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "25 Nov 2026",
+      "imdbRating": null,
+      "description": "25 Nov 2026 • R"
+    },
+    {
+      "id": "tt37171180",
+      "type": "movie",
+      "name": "Artificial",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_7.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "25 Dec 2026",
+      "imdbRating": null,
+      "description": "25 Dec 2026 • PG-13"
+    },
+    {
+      "id": "tt26735127",
+      "type": "movie",
+      "name": "Jumanji: Open World",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_8.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "25 Dec 2026",
+      "imdbRating": null,
+      "description": "25 Dec 2026"
+    },
+    {
+      "id": "tt35935357",
+      "type": "movie",
+      "name": "The Beekeeper 2",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_9.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "13 Jan 2027",
+      "imdbRating": null,
+      "description": "13 Jan 2027"
+    },
+    {
+      "id": "tt43621069",
+      "type": "movie",
+      "name": "Lilo & Scratch",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_10.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "25 Nov 2026",
+      "imdbRating": null,
+      "description": "25 Nov 2026 • PG"
+    },
+    {
+      "id": "tt32432428",
+      "type": "movie",
+      "name": "Violent Night 2",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_11.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "02 Dec 2026",
+      "imdbRating": null,
+      "description": "02 Dec 2026"
+    },
+    {
+      "id": "tt32557122",
+      "type": "movie",
+      "name": "The Angry Birds Movie 3",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_12.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "01 Jan 2027",
+      "imdbRating": null,
+      "description": "01 Jan 2027"
+    },
+    {
+      "id": "tt21361444",
+      "type": "movie",
+      "name": "Avengers: Secret Wars",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_13.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "15 Dec 2027",
+      "imdbRating": null,
+      "description": "15 Dec 2027"
+    },
+    {
+      "id": "tt16744566",
+      "type": "movie",
+      "name": "Sonic the Hedgehog 4",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_14.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "11 Mar 2027",
+      "imdbRating": null,
+      "description": "11 Mar 2027"
+    },
+    {
+      "id": "tt16995302",
+      "type": "movie",
+      "name": "The Man with the Bag",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/upcoming_cinema_15.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "02 Dec 2026",
+      "imdbRating": null,
+      "description": "02 Dec 2026 • PG"
+    }
+  ]
+}

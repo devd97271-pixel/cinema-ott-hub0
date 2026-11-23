@@ -1,64 +1,74 @@
 {
   "metas": [
     {
-      "id": "tt39943756",
+      "id": "tmdb:67192",
       "type": "series",
-      "name": "Campus Drivers",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_series_1.jpg",
+      "name": "New Japan Pro Wrestling",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_s_1.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "06 Nov 2026",
-      "imdbRating": "7.7",
-      "description": "Release: 06 Nov 2026 | IMDb: 7.7 | OTT: Prime Video"
-    },
-    {
-      "id": "tt41054228",
-      "type": "series",
-      "name": "Devils' Crest",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_series_2.jpg",
-      "posterShape": "landscape",
-      "releaseInfo": "06 Nov 2026",
+      "releaseInfo": "06 Mar 1972",
       "imdbRating": "8.0",
-      "description": "Release: 06 Nov 2026 | IMDb: 8.0 | OTT: Prime Video"
+      "description": "06 Mar 1972 • U • IMDb 8.0 • Prime Video"
     },
     {
-      "id": "tt15715850",
+      "id": "tt0202748",
       "type": "series",
-      "name": "The Greatest",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_series_3.jpg",
+      "name": "Popular",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_s_2.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "04 Nov 2026",
-      "imdbRating": "5.5",
-      "description": "Release: 04 Nov 2026 | IMDb: 5.5 | OTT: Prime Video"
+      "releaseInfo": "29 Sep 1999",
+      "imdbRating": "7.4",
+      "description": "29 Sep 1999 • TV-14 • IMDb 7.4 • Prime Video"
     },
     {
-      "id": "tt44914557",
+      "id": "tt43599867",
       "type": "series",
-      "name": "Rock, Paper, Landmines",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_series_4.jpg",
+      "name": "20 Lists",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_s_3.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "13 Nov 2026",
-      "imdbRating": "8.5",
-      "description": "Release: 13 Nov 2026 | IMDb: 8.5 | OTT: Prime Video"
-    },
-    {
-      "id": "tt50666033",
-      "type": "series",
-      "name": "MELANIA the Series",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_series_5.jpg",
-      "posterShape": "landscape",
-      "releaseInfo": "20 Nov 2026",
-      "imdbRating": "1.0",
-      "description": "Release: 20 Nov 2026 | IMDb: 1.0 | OTT: Prime Video"
-    },
-    {
-      "id": "tt43620104",
-      "type": "series",
-      "name": "Mascarade",
-      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_series_6.jpg",
-      "posterShape": "landscape",
-      "releaseInfo": "20 Nov 2026",
+      "releaseInfo": "2026",
       "imdbRating": null,
-      "description": "Release: 20 Nov 2026 | OTT: Prime Video"
+      "description": "Prime Video"
+    },
+    {
+      "id": "tt0165961",
+      "type": "series",
+      "name": "Sports Night",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_s_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "22 Sep 1998",
+      "imdbRating": "8.3",
+      "description": "22 Sep 1998 • TV-PG • IMDb 8.3 • Prime Video"
+    },
+    {
+      "id": "tt2817246",
+      "type": "series",
+      "name": "Girlfriends' Guide to Divorce",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_s_5.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "02 Dec 2014",
+      "imdbRating": "7.0",
+      "description": "02 Dec 2014 • TV-14 • IMDb 7.0 • Prime Video"
+    },
+    {
+      "id": "tt0178142",
+      "type": "series",
+      "name": "In All Friendship",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_s_6.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "26 Oct 1998",
+      "imdbRating": "4.6",
+      "description": "26 Oct 1998 • IMDb 4.6 • Prime Video"
+    },
+    {
+      "id": "tt36517681",
+      "type": "series",
+      "name": "Catalog",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/prime_new_s_7.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "17 Jul 2025",
+      "imdbRating": "7.6",
+      "description": "17 Jul 2025 • TV-14 • IMDb 7.6 • Prime Video"
     }
   ]
 }

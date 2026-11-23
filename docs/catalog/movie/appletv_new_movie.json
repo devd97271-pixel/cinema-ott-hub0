@@ -1,0 +1,84 @@
+{
+  "metas": [
+    {
+      "id": "tt0839980",
+      "type": "movie",
+      "name": "Semi-Pro",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_new_m_1.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "28 Feb 2008",
+      "imdbRating": "5.8",
+      "description": "28 Feb 2008 • R • IMDb 5.8 • Apple TV+"
+    },
+    {
+      "id": "tt21956238",
+      "type": "movie",
+      "name": "Popular Theory",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_new_m_2.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "09 Feb 2024",
+      "imdbRating": "5.9",
+      "description": "09 Feb 2024 • PG • IMDb 5.9 • Apple TV+"
+    },
+    {
+      "id": "tmdb:986406",
+      "type": "movie",
+      "name": "Wallace's Lists",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_new_m_3.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "01 Jan 2007",
+      "imdbRating": null,
+      "description": "01 Jan 2007 • Apple TV+"
+    },
+    {
+      "id": "tt9191040",
+      "type": "movie",
+      "name": "Sports!",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_new_m_4.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "22 Jun 2018",
+      "imdbRating": "6.6",
+      "description": "22 Jun 2018 • IMDb 6.6 • Apple TV+"
+    },
+    {
+      "id": "tt1727776",
+      "type": "movie",
+      "name": "Scouts Guide to the Zombie Apocalypse",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_new_m_5.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "23 Oct 2015",
+      "imdbRating": "6.3",
+      "description": "23 Oct 2015 • R • IMDb 6.3 • Apple TV+"
+    },
+    {
+      "id": "tt6710474",
+      "type": "movie",
+      "name": "Everything Everywhere All at Once",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_new_m_6.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "16 Sep 2022",
+      "imdbRating": "7.7",
+      "description": "16 Sep 2022 • A • IMDb 7.7 • Apple TV+"
+    },
+    {
+      "id": "tt2154844",
+      "type": "movie",
+      "name": "Catalog",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_new_m_7.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "23 Jun 1961",
+      "imdbRating": "7.0",
+      "description": "23 Jun 1961 • IMDb 7.0 • Apple TV+"
+    },
+    {
+      "id": "tt15433030",
+      "type": "movie",
+      "name": "Filters",
+      "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_new_m_8.jpg",
+      "posterShape": "landscape",
+      "releaseInfo": "11 Jan 2020",
+      "imdbRating": null,
+      "description": "11 Jan 2020 • Apple TV+"
+    }
+  ]
+}
