@@ -31,14 +31,14 @@
       "description": "01 Jan 2007 • Apple TV+"
     },
     {
-      "id": "tmdb:995877",
+      "id": "tt9191040",
       "type": "movie",
-      "name": "Sports",
+      "name": "Sports!",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/appletv_new_m_4.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "15 Jul 1932",
-      "imdbRating": null,
-      "description": "15 Jul 1932 • Apple TV+"
+      "releaseInfo": "22 Jun 2018",
+      "imdbRating": "6.6",
+      "description": "22 Jun 2018 • IMDb 6.6 • Apple TV+"
     },
     {
       "id": "tt1727776",

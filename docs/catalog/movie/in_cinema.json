@@ -1,204 +1,204 @@
 {
   "metas": [
     {
-      "id": "tmdb:1841348",
+      "id": "tmdb:1842048",
       "type": "movie",
-      "name": "Guy Movie",
+      "name": "Linda y Bobby en un pozo",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_1.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tmdb:1840548",
+      "id": "tt43666365",
       "type": "movie",
-      "name": "仰天一笑",
+      "name": "My Girl",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_2.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tmdb:1839176",
+      "id": "tmdb:1840692",
       "type": "movie",
-      "name": "Cuidadores, l'exèrcit invisible",
+      "name": "Anatomy of Absence",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_3.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
-      "imdbRating": null,
-      "description": "24 Nov 2026"
+      "releaseInfo": "25 Nov 2026",
+      "imdbRating": "7.0",
+      "description": "25 Nov 2026 • IMDb 7.0"
     },
     {
-      "id": "tt48409716",
+      "id": "tmdb:1838960",
       "type": "movie",
-      "name": "MAR OSCURO",
+      "name": "Acedia",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_4.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tmdb:1828879",
+      "id": "tmdb:1838403",
       "type": "movie",
-      "name": "Iranians Under Siege",
+      "name": "Evidently Chickentown",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_5.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tt43586990",
+      "id": "tmdb:1832061",
       "type": "movie",
-      "name": "An Angel Messed Up My Christmas",
+      "name": "EL OSO",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_6.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tt51325557",
+      "id": "tmdb:1831999",
       "type": "movie",
-      "name": "The Black Sea",
+      "name": "Noite de Estreia",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_7.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tt51351389",
+      "id": "tmdb:1830858",
       "type": "movie",
-      "name": "Tago",
+      "name": "Monte",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_8.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tt50828463",
+      "id": "tmdb:1828786",
       "type": "movie",
-      "name": "Nate Bargatze: Good for Nathan",
+      "name": "Suicide forcé : un féminicide invisible ?",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_9.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tmdb:1823741",
+      "id": "tmdb:1828757",
       "type": "movie",
-      "name": "Mate The 13th",
+      "name": "Alain Souchon accompagné par Ours & Pierre Souchon",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_10.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tmdb:1822686",
+      "id": "tmdb:1828420",
       "type": "movie",
-      "name": "O",
+      "name": "Starlight",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_11.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tmdb:1814892",
+      "id": "tmdb:1828100",
       "type": "movie",
-      "name": "Ralia va (très) bien",
+      "name": "Corner: Our Bumpy Story",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_12.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tmdb:1814094",
+      "id": "tt50744309",
       "type": "movie",
-      "name": "Memoirs of a Tiger Killer",
+      "name": "Keevve?",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_13.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tmdb:1810458",
+      "id": "tmdb:1826075",
       "type": "movie",
-      "name": "L’éclat",
+      "name": "The ghost mask",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_14.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tmdb:1803359",
+      "id": "tmdb:1825600",
       "type": "movie",
-      "name": "Lorazepam",
+      "name": "Bogdan Boner: Netflix & chill",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_15.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tt47597255",
+      "id": "tmdb:1825350",
       "type": "movie",
-      "name": "Rob Lowe: The Outsider",
+      "name": "A Lone Jamun Tree",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_16.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tt50306082",
+      "id": "tmdb:1824922",
       "type": "movie",
-      "name": "GW:s mord - Mordet på Liselotte",
+      "name": "Elders extreme damage",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_17.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tmdb:1798327",
+      "id": "tmdb:1823039",
       "type": "movie",
-      "name": "SO ALIVE!",
+      "name": "Gorgonia",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_18.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tmdb:1797431",
+      "id": "tmdb:1820765",
       "type": "movie",
-      "name": "Fabrica",
+      "name": "Huellas",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_19.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     },
     {
-      "id": "tmdb:1791797",
+      "id": "tmdb:1818369",
       "type": "movie",
-      "name": "Sessions",
+      "name": "Being Human",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_20.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "24 Nov 2026",
+      "releaseInfo": "25 Nov 2026",
       "imdbRating": null,
-      "description": "24 Nov 2026"
+      "description": "25 Nov 2026"
     }
   ]
 }
