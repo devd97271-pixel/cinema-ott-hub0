@@ -1,204 +1,204 @@
 {
   "metas": [
     {
-      "id": "tmdb:1843464",
+      "id": "tmdb:1844513",
       "type": "movie",
-      "name": "Back Before Midnight",
+      "name": "Yellow Purple Jasmine",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_1.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1843307",
+      "id": "tmdb:1844434",
       "type": "movie",
-      "name": "A Clave de Sol",
+      "name": "Dingetjie is Dynamite",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_2.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1842048",
+      "id": "tmdb:1843372",
       "type": "movie",
-      "name": "Linda y Bobby en un pozo",
+      "name": "Echoes",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_3.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tt43666365",
+      "id": "tt27116139",
       "type": "movie",
-      "name": "My Girl",
+      "name": "La Novia del Atlántico",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_4.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1840692",
+      "id": "tt52264091",
       "type": "movie",
-      "name": "Anatomy of Absence",
+      "name": "Interesting and Obscene",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_5.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
-      "imdbRating": "7.0",
-      "description": "25 Nov 2026 • IMDb 7.0"
+      "releaseInfo": "26 Nov 2026",
+      "imdbRating": null,
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1838960",
+      "id": "tmdb:1842830",
       "type": "movie",
-      "name": "Acedia",
+      "name": "A Pessoa Que Eu Sou",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_6.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1838403",
+      "id": "tmdb:1841303",
       "type": "movie",
-      "name": "Evidently Chickentown",
+      "name": "Caximba's Rain",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_7.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1832061",
+      "id": "tmdb:1839251",
       "type": "movie",
-      "name": "EL OSO",
+      "name": "The Influencer",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_8.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1831999",
+      "id": "tmdb:1837243",
       "type": "movie",
-      "name": "Noite de Estreia",
+      "name": "That Handsome Devil!",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_9.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1830858",
+      "id": "tmdb:1833252",
       "type": "movie",
-      "name": "Monte",
+      "name": "Desire",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_10.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1829358",
+      "id": "tmdb:1832650",
       "type": "movie",
-      "name": "Back Before Midnight",
+      "name": "nothing else matters",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_11.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1828786",
+      "id": "tmdb:1831520",
       "type": "movie",
-      "name": "Suicide forcé : un féminicide invisible ?",
+      "name": "Ás de Ouros",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_12.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1828757",
+      "id": "tt45922319",
       "type": "movie",
-      "name": "Alain Souchon accompagné par Ours & Pierre Souchon",
+      "name": "A Friendly Massacre",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_13.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1828420",
+      "id": "tmdb:1829863",
       "type": "movie",
-      "name": "Starlight",
+      "name": "Liberante",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_14.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1828100",
+      "id": "tmdb:1829004",
       "type": "movie",
-      "name": "Corner: Our Bumpy Story",
+      "name": "Trabalho Sério",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_15.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tt50744309",
+      "id": "tmdb:1827895",
       "type": "movie",
-      "name": "Keevve?",
+      "name": "Waiting Room",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_16.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1826075",
+      "id": "tmdb:1827458",
       "type": "movie",
-      "name": "The ghost mask",
+      "name": "Ali, I mean Matias",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_17.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1825600",
+      "id": "tmdb:1827442",
       "type": "movie",
-      "name": "Bogdan Boner: Netflix & chill",
+      "name": "Ohikiitävää",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_18.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1825350",
+      "id": "tmdb:1826721",
       "type": "movie",
-      "name": "A Lone Jamun Tree",
+      "name": "Herdeiros da Cota",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_19.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     },
     {
-      "id": "tmdb:1824922",
+      "id": "tmdb:1826173",
       "type": "movie",
-      "name": "Elders extreme damage",
+      "name": "SACRIFICIO",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_20.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "25 Nov 2026",
+      "releaseInfo": "26 Nov 2026",
       "imdbRating": null,
-      "description": "25 Nov 2026"
+      "description": "26 Nov 2026"
     }
   ]
 }
