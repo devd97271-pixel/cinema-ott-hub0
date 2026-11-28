@@ -1,204 +1,204 @@
 {
   "metas": [
     {
-      "id": "tmdb:1850065",
+      "id": "tmdb:1851951",
       "type": "movie",
-      "name": "The Muralists",
+      "name": "Lelana",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_1.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1848879",
+      "id": "tmdb:1849995",
       "type": "movie",
-      "name": "Charlemagne, de l'empereur au mythe planétaire",
+      "name": "Det Ingen skulle se - Jenta i barneboligen",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_2.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1847196",
+      "id": "tmdb:1847469",
       "type": "movie",
-      "name": "La voce del sorriso",
+      "name": "Samudra Diatas Laut",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_3.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
-      "imdbRating": "10.0",
-      "description": "28 Nov 2026 • IMDb 10.0"
+      "releaseInfo": "29 Nov 2026",
+      "imdbRating": null,
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1846968",
+      "id": "tmdb:1847285",
       "type": "movie",
-      "name": "Kya Thhe?",
+      "name": "Popok Pok",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_4.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026 • A"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1846489",
+      "id": "tmdb:1847182",
       "type": "movie",
-      "name": "Mr. Hustle",
+      "name": "Pasukan Klepon",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_5.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1846302",
+      "id": "tmdb:1845389",
       "type": "movie",
-      "name": "LUNDE: Life and Death of an Athlete",
+      "name": "Those years are over",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_6.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1845338",
+      "id": "tmdb:1844241",
       "type": "movie",
-      "name": "Please Be There",
+      "name": "Mak, Abe Lowbat",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_7.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1842327",
+      "id": "tmdb:1843472",
       "type": "movie",
-      "name": "APC Luchamania 2026",
+      "name": "Heal",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_8.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1841922",
+      "id": "tmdb:1842105",
       "type": "movie",
-      "name": "Before We Break: One Last Shot",
+      "name": "Until The Trophy",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_9.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1841450",
+      "id": "tmdb:1841488",
       "type": "movie",
-      "name": "Ô Conifères",
+      "name": "Heal with The Princess of Wales",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_10.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1840918",
+      "id": "tt51862323",
       "type": "movie",
-      "name": "Mephisto - Gustaf Gründgens & Klaus Mann",
+      "name": "SHOUT!",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_11.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1840843",
+      "id": "tmdb:1839447",
       "type": "movie",
-      "name": "Deutschland im Weihnachtswahnsinn",
+      "name": "Contra Nós Quem Puder",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_12.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
-      "imdbRating": null,
-      "description": "28 Nov 2026"
+      "releaseInfo": "29 Nov 2026",
+      "imdbRating": "10.0",
+      "description": "29 Nov 2026 • IMDb 10.0"
     },
     {
-      "id": "tt38524878",
+      "id": "tmdb:1839252",
       "type": "movie",
-      "name": "乌龙镇",
+      "name": "Kosmic Kidnap",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_13.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1839190",
+      "id": "tmdb:1838726",
       "type": "movie",
-      "name": "Bloodies",
+      "name": "CRABS",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_14.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1838671",
+      "id": "tmdb:1838705",
       "type": "movie",
-      "name": "Tatlong Pirma",
+      "name": "rara’ acan 雲端上的勇士",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_15.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1833997",
+      "id": "tmdb:1837182",
       "type": "movie",
-      "name": "my hamster video",
+      "name": "DOMANI",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_16.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1833166",
+      "id": "tmdb:1836737",
       "type": "movie",
-      "name": "Jeanfi Janssens - Tombé du ciel",
+      "name": "Arditi : le jeu de la vie",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_17.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1832975",
+      "id": "tmdb:1828903",
       "type": "movie",
-      "name": "Demain La Havane",
+      "name": "The Eternal of Takada",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_18.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tmdb:1829240",
+      "id": "tmdb:1824884",
       "type": "movie",
-      "name": "Contra",
+      "name": "Adieu Simone",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_19.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     },
     {
-      "id": "tt44287187",
+      "id": "tmdb:1824086",
       "type": "movie",
-      "name": "Gestation",
+      "name": "NMIXX 1ST WORLD TOUR 〈EPISODE 1: ZERO FRONTIER〉 FINALE IN INCHEON LIVE VIEWING",
       "poster": "https://devd97271-pixel.github.io/cinema-ott-hub0/images/in_cinema_20.jpg",
       "posterShape": "landscape",
-      "releaseInfo": "28 Nov 2026",
+      "releaseInfo": "29 Nov 2026",
       "imdbRating": null,
-      "description": "28 Nov 2026"
+      "description": "29 Nov 2026"
     }
   ]
 }
